@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deletion-audit-agent"
+version = "1.0.0"
+description = "AI-Powered Personal Data Deletion Audit Agent for Northstar Shop"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+run-audit = "scripts.run_audit:main"
+evaluate-audit = "scripts.evaluate:main"

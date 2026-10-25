@@ -1,0 +1,6 @@
+{
+  "name": "Northstar AI Personal Data Deletion Audit Agent",
+  "description": "Evidence-driven AI Personal Data Deletion Audit Agent for Northstar Shop. Identifies ghost data, resolves user identities, applies policy rules, generates ordered remediation plans, and produces deterministic verification steps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

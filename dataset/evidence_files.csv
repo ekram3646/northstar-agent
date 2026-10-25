@@ -1,0 +1,3 @@
+file_id,system_id,file_path,file_type,created_at,description
+evidence_01,system_snapshots,dataset/evidence/system_snapshots.sqlite,sqlite,2026-01-01T10:00:00+00:00,System snapshot database
+evidence_02,support_logs,dataset/evidence/support_audit.json,json,2026-01-01T10:00:00+00:00,Support desk audit json

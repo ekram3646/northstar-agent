@@ -1,0 +1,11 @@
+category,system_id,required_treatment,allowed_identifiers,retention_period_days
+primary_account,account_service,DELETE_RECORD,none,0
+tombstone_record,account_service,REDACT_RECORD,user_id,3650
+order_history,order_service,ANONYMIZE_RECORD,"user_id,order_id",2555
+support_tickets,support_desk,REDACT_RECORD,"ticket_id,user_id",1095
+search_index,search_service,DELETE_RECORD,none,0
+analytics_export,analytics_dw,ANONYMIZE_RECORD,"user_id,event_name",730
+sync_pipeline,crm_sync_engine,DISABLE_DATA_FLOW,none,0
+backup_archive,backup_vault,BLOCK_RESTORE,none,365
+audit_trail,security_audit_log,REDACT_RECORD,"user_id,event_type",3650
+financial_ledger,finance_service,VERIFY_RECORD_PRESENT,"user_id,transaction_id",3650

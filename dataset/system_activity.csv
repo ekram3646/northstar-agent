@@ -1,0 +1,933 @@
+activity_id,system_id,resource_id,activity_type,user_id,status,timestamp,details
+act_1_1,account_service,account_001,DELETE_RECORD,user_1001,SUCCESS,2026-01-02T13:00:00+00:00,Primary account tombstoned
+act_1_2,crm_sync_engine,sync_job_001,RECREATE_DATA,user_1001,ACTIVE,2026-01-07T11:00:00+00:00,CRM sync job active and auto-recreating user data
+act_2_1,account_service,account_002,DELETE_RECORD,user_1002,SUCCESS,2026-01-03T14:00:00+00:00,Primary account tombstoned
+act_2_2,backup_vault,backup_snapshot_002,RESTORE_PATH,user_1002,ACTIVE,2026-01-08T12:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_3_1,account_service,account_003,DELETE_RECORD,user_1003,SUCCESS,2026-01-04T15:00:00+00:00,Account record deleted
+act_3_2,search_service,search_doc_003,DELETE_RECORD,user_1003,SUCCESS,2026-01-04T15:00:00+00:00,Search index cleared
+act_4_1,account_service,account_004,DELETE_RECORD,user_1004,SUCCESS,2026-01-05T16:00:00+00:00,Primary account tombstoned
+act_4_2,search_service,search_doc_004,INDEX_RECORD,user_1004,PRESENT,2026-01-10T14:00:00+00:00,Exposed email in search index
+act_5_1,account_service,account_005,DELETE_RECORD,user_1005,SUCCESS,2026-01-06T17:00:00+00:00,Primary account tombstoned
+act_5_2,search_service,search_doc_005,INDEX_RECORD,user_1005,PRESENT,2026-01-11T15:00:00+00:00,Exposed email in search index
+act_6_1,account_service,account_006,DELETE_RECORD,user_1006,SUCCESS,2026-01-07T18:00:00+00:00,Account record deleted
+act_6_2,search_service,search_doc_006,DELETE_RECORD,user_1006,SUCCESS,2026-01-07T18:00:00+00:00,Search index cleared
+act_7_1,account_service,account_007,DELETE_RECORD,user_1007,SUCCESS,2026-01-08T19:00:00+00:00,Primary account tombstoned
+act_7_2,backup_vault,backup_snapshot_007,RESTORE_PATH,user_1007,ACTIVE,2026-01-13T17:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_8_1,account_service,account_008,DELETE_RECORD,user_1008,SUCCESS,2026-01-09T20:00:00+00:00,Primary account tombstoned
+act_8_2,search_service,search_doc_008,INDEX_RECORD,user_1008,PRESENT,2026-01-14T18:00:00+00:00,Exposed email in search index
+act_9_1,account_service,account_009,DELETE_RECORD,user_1009,SUCCESS,2026-01-10T21:00:00+00:00,Account record deleted
+act_9_2,search_service,search_doc_009,DELETE_RECORD,user_1009,SUCCESS,2026-01-10T21:00:00+00:00,Search index cleared
+act_11_1,account_service,account_011,DELETE_RECORD,user_1011,SUCCESS,2026-01-12T23:00:00+00:00,Primary account tombstoned
+act_11_2,crm_sync_engine,sync_job_011,RECREATE_DATA,user_1011,ACTIVE,2026-01-17T21:00:00+00:00,CRM sync job active and auto-recreating user data
+act_12_1,account_service,account_012,DELETE_RECORD,user_1012,SUCCESS,2026-01-14T00:00:00+00:00,Account record deleted
+act_12_2,search_service,search_doc_012,DELETE_RECORD,user_1012,SUCCESS,2026-01-14T00:00:00+00:00,Search index cleared
+act_13_1,account_service,account_013,DELETE_RECORD,user_1013,SUCCESS,2026-01-15T01:00:00+00:00,Primary account tombstoned
+act_13_2,search_service,search_doc_013,INDEX_RECORD,user_1013,PRESENT,2026-01-19T23:00:00+00:00,Exposed email in search index
+act_14_1,account_service,account_014,DELETE_RECORD,user_1014,SUCCESS,2026-01-16T02:00:00+00:00,Primary account tombstoned
+act_14_2,search_service,search_doc_014,INDEX_RECORD,user_1014,PRESENT,2026-01-21T00:00:00+00:00,Exposed email in search index
+act_15_1,account_service,account_015,DELETE_RECORD,user_1015,SUCCESS,2026-01-17T03:00:00+00:00,Account record deleted
+act_15_2,search_service,search_doc_015,DELETE_RECORD,user_1015,SUCCESS,2026-01-17T03:00:00+00:00,Search index cleared
+act_16_1,account_service,account_016,DELETE_RECORD,user_1016,SUCCESS,2026-01-18T04:00:00+00:00,Primary account tombstoned
+act_16_2,crm_sync_engine,sync_job_016,RECREATE_DATA,user_1016,ACTIVE,2026-01-23T02:00:00+00:00,CRM sync job active and auto-recreating user data
+act_17_1,account_service,account_017,DELETE_RECORD,user_1017,SUCCESS,2026-01-19T05:00:00+00:00,Primary account tombstoned
+act_17_2,backup_vault,backup_snapshot_017,RESTORE_PATH,user_1017,ACTIVE,2026-01-24T03:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_18_1,account_service,account_018,DELETE_RECORD,user_1018,SUCCESS,2026-01-20T06:00:00+00:00,Account record deleted
+act_18_2,search_service,search_doc_018,DELETE_RECORD,user_1018,SUCCESS,2026-01-20T06:00:00+00:00,Search index cleared
+act_19_1,account_service,account_019,DELETE_RECORD,user_1019,SUCCESS,2026-01-21T07:00:00+00:00,Primary account tombstoned
+act_19_2,search_service,search_doc_019,INDEX_RECORD,user_1019,PRESENT,2026-01-26T05:00:00+00:00,Exposed email in search index
+act_21_1,account_service,account_021,DELETE_RECORD,user_1021,SUCCESS,2026-01-23T09:00:00+00:00,Account record deleted
+act_21_2,search_service,search_doc_021,DELETE_RECORD,user_1021,SUCCESS,2026-01-23T09:00:00+00:00,Search index cleared
+act_22_1,account_service,account_022,DELETE_RECORD,user_1022,SUCCESS,2026-01-24T10:00:00+00:00,Primary account tombstoned
+act_22_2,backup_vault,backup_snapshot_022,RESTORE_PATH,user_1022,ACTIVE,2026-01-29T08:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_23_1,account_service,account_023,DELETE_RECORD,user_1023,SUCCESS,2026-01-25T11:00:00+00:00,Primary account tombstoned
+act_23_2,search_service,search_doc_023,INDEX_RECORD,user_1023,PRESENT,2026-01-30T09:00:00+00:00,Exposed email in search index
+act_24_1,account_service,account_024,DELETE_RECORD,user_1024,SUCCESS,2026-01-25T12:00:00+00:00,Account record deleted
+act_24_2,search_service,search_doc_024,DELETE_RECORD,user_1024,SUCCESS,2026-01-25T12:00:00+00:00,Search index cleared
+act_25_1,account_service,account_025,DELETE_RECORD,user_1025,SUCCESS,2026-01-26T13:00:00+00:00,Primary account tombstoned
+act_25_2,search_service,search_doc_025,INDEX_RECORD,user_1025,PRESENT,2026-01-31T11:00:00+00:00,Exposed email in search index
+act_26_1,account_service,account_026,DELETE_RECORD,user_1026,SUCCESS,2026-01-27T14:00:00+00:00,Primary account tombstoned
+act_26_2,crm_sync_engine,sync_job_026,RECREATE_DATA,user_1026,ACTIVE,2026-02-01T12:00:00+00:00,CRM sync job active and auto-recreating user data
+act_27_1,account_service,account_027,DELETE_RECORD,user_1027,SUCCESS,2026-01-28T15:00:00+00:00,Account record deleted
+act_27_2,search_service,search_doc_027,DELETE_RECORD,user_1027,SUCCESS,2026-01-28T15:00:00+00:00,Search index cleared
+act_28_1,account_service,account_028,DELETE_RECORD,user_1028,SUCCESS,2026-01-29T16:00:00+00:00,Primary account tombstoned
+act_28_2,search_service,search_doc_028,INDEX_RECORD,user_1028,PRESENT,2026-02-03T14:00:00+00:00,Exposed email in search index
+act_29_1,account_service,account_029,DELETE_RECORD,user_1029,SUCCESS,2026-01-30T17:00:00+00:00,Primary account tombstoned
+act_29_2,search_service,search_doc_029,INDEX_RECORD,user_1029,PRESENT,2026-02-04T15:00:00+00:00,Exposed email in search index
+act_31_1,account_service,account_031,DELETE_RECORD,user_1031,SUCCESS,2026-01-02T19:00:00+00:00,Primary account tombstoned
+act_31_2,crm_sync_engine,sync_job_031,RECREATE_DATA,user_1031,ACTIVE,2026-01-07T17:00:00+00:00,CRM sync job active and auto-recreating user data
+act_32_1,account_service,account_032,DELETE_RECORD,user_1032,SUCCESS,2026-01-03T20:00:00+00:00,Primary account tombstoned
+act_32_2,backup_vault,backup_snapshot_032,RESTORE_PATH,user_1032,ACTIVE,2026-01-08T18:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_33_1,account_service,account_033,DELETE_RECORD,user_1033,SUCCESS,2026-01-04T21:00:00+00:00,Account record deleted
+act_33_2,search_service,search_doc_033,DELETE_RECORD,user_1033,SUCCESS,2026-01-04T21:00:00+00:00,Search index cleared
+act_34_1,account_service,account_034,DELETE_RECORD,user_1034,SUCCESS,2026-01-05T22:00:00+00:00,Primary account tombstoned
+act_34_2,search_service,search_doc_034,INDEX_RECORD,user_1034,PRESENT,2026-01-10T20:00:00+00:00,Exposed email in search index
+act_35_1,account_service,account_035,DELETE_RECORD,user_1035,SUCCESS,2026-01-06T23:00:00+00:00,Primary account tombstoned
+act_35_2,search_service,search_doc_035,INDEX_RECORD,user_1035,PRESENT,2026-01-11T21:00:00+00:00,Exposed email in search index
+act_36_1,account_service,account_036,DELETE_RECORD,user_1036,SUCCESS,2026-01-08T00:00:00+00:00,Account record deleted
+act_36_2,search_service,search_doc_036,DELETE_RECORD,user_1036,SUCCESS,2026-01-08T00:00:00+00:00,Search index cleared
+act_37_1,account_service,account_037,DELETE_RECORD,user_1037,SUCCESS,2026-01-09T01:00:00+00:00,Primary account tombstoned
+act_37_2,backup_vault,backup_snapshot_037,RESTORE_PATH,user_1037,ACTIVE,2026-01-13T23:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_38_1,account_service,account_038,DELETE_RECORD,user_1038,SUCCESS,2026-01-10T02:00:00+00:00,Primary account tombstoned
+act_38_2,search_service,search_doc_038,INDEX_RECORD,user_1038,PRESENT,2026-01-15T00:00:00+00:00,Exposed email in search index
+act_39_1,account_service,account_039,DELETE_RECORD,user_1039,SUCCESS,2026-01-11T03:00:00+00:00,Account record deleted
+act_39_2,search_service,search_doc_039,DELETE_RECORD,user_1039,SUCCESS,2026-01-11T03:00:00+00:00,Search index cleared
+act_41_1,account_service,account_041,DELETE_RECORD,user_1041,SUCCESS,2026-01-13T05:00:00+00:00,Primary account tombstoned
+act_41_2,crm_sync_engine,sync_job_041,RECREATE_DATA,user_1041,ACTIVE,2026-01-18T03:00:00+00:00,CRM sync job active and auto-recreating user data
+act_42_1,account_service,account_042,DELETE_RECORD,user_1042,SUCCESS,2026-01-14T06:00:00+00:00,Account record deleted
+act_42_2,search_service,search_doc_042,DELETE_RECORD,user_1042,SUCCESS,2026-01-14T06:00:00+00:00,Search index cleared
+act_43_1,account_service,account_043,DELETE_RECORD,user_1043,SUCCESS,2026-01-15T07:00:00+00:00,Primary account tombstoned
+act_43_2,search_service,search_doc_043,INDEX_RECORD,user_1043,PRESENT,2026-01-20T05:00:00+00:00,Exposed email in search index
+act_44_1,account_service,account_044,DELETE_RECORD,user_1044,SUCCESS,2026-01-16T08:00:00+00:00,Primary account tombstoned
+act_44_2,search_service,search_doc_044,INDEX_RECORD,user_1044,PRESENT,2026-01-21T06:00:00+00:00,Exposed email in search index
+act_45_1,account_service,account_045,DELETE_RECORD,user_1045,SUCCESS,2026-01-17T09:00:00+00:00,Account record deleted
+act_45_2,search_service,search_doc_045,DELETE_RECORD,user_1045,SUCCESS,2026-01-17T09:00:00+00:00,Search index cleared
+act_46_1,account_service,account_046,DELETE_RECORD,user_1046,SUCCESS,2026-01-18T10:00:00+00:00,Primary account tombstoned
+act_46_2,crm_sync_engine,sync_job_046,RECREATE_DATA,user_1046,ACTIVE,2026-01-23T08:00:00+00:00,CRM sync job active and auto-recreating user data
+act_47_1,account_service,account_047,DELETE_RECORD,user_1047,SUCCESS,2026-01-19T11:00:00+00:00,Primary account tombstoned
+act_47_2,backup_vault,backup_snapshot_047,RESTORE_PATH,user_1047,ACTIVE,2026-01-24T09:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_48_1,account_service,account_048,DELETE_RECORD,user_1048,SUCCESS,2026-01-19T12:00:00+00:00,Account record deleted
+act_48_2,search_service,search_doc_048,DELETE_RECORD,user_1048,SUCCESS,2026-01-19T12:00:00+00:00,Search index cleared
+act_49_1,account_service,account_049,DELETE_RECORD,user_1049,SUCCESS,2026-01-20T13:00:00+00:00,Primary account tombstoned
+act_49_2,search_service,search_doc_049,INDEX_RECORD,user_1049,PRESENT,2026-01-25T11:00:00+00:00,Exposed email in search index
+act_51_1,account_service,account_051,DELETE_RECORD,user_1051,SUCCESS,2026-01-22T15:00:00+00:00,Account record deleted
+act_51_2,search_service,search_doc_051,DELETE_RECORD,user_1051,SUCCESS,2026-01-22T15:00:00+00:00,Search index cleared
+act_52_1,account_service,account_052,DELETE_RECORD,user_1052,SUCCESS,2026-01-23T16:00:00+00:00,Primary account tombstoned
+act_52_2,backup_vault,backup_snapshot_052,RESTORE_PATH,user_1052,ACTIVE,2026-01-28T14:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_53_1,account_service,account_053,DELETE_RECORD,user_1053,SUCCESS,2026-01-24T17:00:00+00:00,Primary account tombstoned
+act_53_2,search_service,search_doc_053,INDEX_RECORD,user_1053,PRESENT,2026-01-29T15:00:00+00:00,Exposed email in search index
+act_54_1,account_service,account_054,DELETE_RECORD,user_1054,SUCCESS,2026-01-25T18:00:00+00:00,Account record deleted
+act_54_2,search_service,search_doc_054,DELETE_RECORD,user_1054,SUCCESS,2026-01-25T18:00:00+00:00,Search index cleared
+act_55_1,account_service,account_055,DELETE_RECORD,user_1055,SUCCESS,2026-01-26T19:00:00+00:00,Primary account tombstoned
+act_55_2,search_service,search_doc_055,INDEX_RECORD,user_1055,PRESENT,2026-01-31T17:00:00+00:00,Exposed email in search index
+act_56_1,account_service,account_056,DELETE_RECORD,user_1056,SUCCESS,2026-01-27T20:00:00+00:00,Primary account tombstoned
+act_56_2,crm_sync_engine,sync_job_056,RECREATE_DATA,user_1056,ACTIVE,2026-02-01T18:00:00+00:00,CRM sync job active and auto-recreating user data
+act_57_1,account_service,account_057,DELETE_RECORD,user_1057,SUCCESS,2026-01-28T21:00:00+00:00,Account record deleted
+act_57_2,search_service,search_doc_057,DELETE_RECORD,user_1057,SUCCESS,2026-01-28T21:00:00+00:00,Search index cleared
+act_58_1,account_service,account_058,DELETE_RECORD,user_1058,SUCCESS,2026-01-29T22:00:00+00:00,Primary account tombstoned
+act_58_2,search_service,search_doc_058,INDEX_RECORD,user_1058,PRESENT,2026-02-03T20:00:00+00:00,Exposed email in search index
+act_59_1,account_service,account_059,DELETE_RECORD,user_1059,SUCCESS,2026-01-30T23:00:00+00:00,Primary account tombstoned
+act_59_2,search_service,search_doc_059,INDEX_RECORD,user_1059,PRESENT,2026-02-04T21:00:00+00:00,Exposed email in search index
+act_61_1,account_service,account_061,DELETE_RECORD,user_1061,SUCCESS,2026-01-03T01:00:00+00:00,Primary account tombstoned
+act_61_2,crm_sync_engine,sync_job_061,RECREATE_DATA,user_1061,ACTIVE,2026-01-07T23:00:00+00:00,CRM sync job active and auto-recreating user data
+act_62_1,account_service,account_062,DELETE_RECORD,user_1062,SUCCESS,2026-01-04T02:00:00+00:00,Primary account tombstoned
+act_62_2,backup_vault,backup_snapshot_062,RESTORE_PATH,user_1062,ACTIVE,2026-01-09T00:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_63_1,account_service,account_063,DELETE_RECORD,user_1063,SUCCESS,2026-01-05T03:00:00+00:00,Account record deleted
+act_63_2,search_service,search_doc_063,DELETE_RECORD,user_1063,SUCCESS,2026-01-05T03:00:00+00:00,Search index cleared
+act_64_1,account_service,account_064,DELETE_RECORD,user_1064,SUCCESS,2026-01-06T04:00:00+00:00,Primary account tombstoned
+act_64_2,search_service,search_doc_064,INDEX_RECORD,user_1064,PRESENT,2026-01-11T02:00:00+00:00,Exposed email in search index
+act_65_1,account_service,account_065,DELETE_RECORD,user_1065,SUCCESS,2026-01-07T05:00:00+00:00,Primary account tombstoned
+act_65_2,search_service,search_doc_065,INDEX_RECORD,user_1065,PRESENT,2026-01-12T03:00:00+00:00,Exposed email in search index
+act_66_1,account_service,account_066,DELETE_RECORD,user_1066,SUCCESS,2026-01-08T06:00:00+00:00,Account record deleted
+act_66_2,search_service,search_doc_066,DELETE_RECORD,user_1066,SUCCESS,2026-01-08T06:00:00+00:00,Search index cleared
+act_67_1,account_service,account_067,DELETE_RECORD,user_1067,SUCCESS,2026-01-09T07:00:00+00:00,Primary account tombstoned
+act_67_2,backup_vault,backup_snapshot_067,RESTORE_PATH,user_1067,ACTIVE,2026-01-14T05:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_68_1,account_service,account_068,DELETE_RECORD,user_1068,SUCCESS,2026-01-10T08:00:00+00:00,Primary account tombstoned
+act_68_2,search_service,search_doc_068,INDEX_RECORD,user_1068,PRESENT,2026-01-15T06:00:00+00:00,Exposed email in search index
+act_69_1,account_service,account_069,DELETE_RECORD,user_1069,SUCCESS,2026-01-11T09:00:00+00:00,Account record deleted
+act_69_2,search_service,search_doc_069,DELETE_RECORD,user_1069,SUCCESS,2026-01-11T09:00:00+00:00,Search index cleared
+act_71_1,account_service,account_071,DELETE_RECORD,user_1071,SUCCESS,2026-01-13T11:00:00+00:00,Primary account tombstoned
+act_71_2,crm_sync_engine,sync_job_071,RECREATE_DATA,user_1071,ACTIVE,2026-01-18T09:00:00+00:00,CRM sync job active and auto-recreating user data
+act_72_1,account_service,account_072,DELETE_RECORD,user_1072,SUCCESS,2026-01-13T12:00:00+00:00,Account record deleted
+act_72_2,search_service,search_doc_072,DELETE_RECORD,user_1072,SUCCESS,2026-01-13T12:00:00+00:00,Search index cleared
+act_73_1,account_service,account_073,DELETE_RECORD,user_1073,SUCCESS,2026-01-14T13:00:00+00:00,Primary account tombstoned
+act_73_2,search_service,search_doc_073,INDEX_RECORD,user_1073,PRESENT,2026-01-19T11:00:00+00:00,Exposed email in search index
+act_74_1,account_service,account_074,DELETE_RECORD,user_1074,SUCCESS,2026-01-15T14:00:00+00:00,Primary account tombstoned
+act_74_2,search_service,search_doc_074,INDEX_RECORD,user_1074,PRESENT,2026-01-20T12:00:00+00:00,Exposed email in search index
+act_75_1,account_service,account_075,DELETE_RECORD,user_1075,SUCCESS,2026-01-16T15:00:00+00:00,Account record deleted
+act_75_2,search_service,search_doc_075,DELETE_RECORD,user_1075,SUCCESS,2026-01-16T15:00:00+00:00,Search index cleared
+act_76_1,account_service,account_076,DELETE_RECORD,user_1076,SUCCESS,2026-01-17T16:00:00+00:00,Primary account tombstoned
+act_76_2,crm_sync_engine,sync_job_076,RECREATE_DATA,user_1076,ACTIVE,2026-01-22T14:00:00+00:00,CRM sync job active and auto-recreating user data
+act_77_1,account_service,account_077,DELETE_RECORD,user_1077,SUCCESS,2026-01-18T17:00:00+00:00,Primary account tombstoned
+act_77_2,backup_vault,backup_snapshot_077,RESTORE_PATH,user_1077,ACTIVE,2026-01-23T15:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_78_1,account_service,account_078,DELETE_RECORD,user_1078,SUCCESS,2026-01-19T18:00:00+00:00,Account record deleted
+act_78_2,search_service,search_doc_078,DELETE_RECORD,user_1078,SUCCESS,2026-01-19T18:00:00+00:00,Search index cleared
+act_79_1,account_service,account_079,DELETE_RECORD,user_1079,SUCCESS,2026-01-20T19:00:00+00:00,Primary account tombstoned
+act_79_2,search_service,search_doc_079,INDEX_RECORD,user_1079,PRESENT,2026-01-25T17:00:00+00:00,Exposed email in search index
+act_81_1,account_service,account_081,DELETE_RECORD,user_1081,SUCCESS,2026-01-22T21:00:00+00:00,Account record deleted
+act_81_2,search_service,search_doc_081,DELETE_RECORD,user_1081,SUCCESS,2026-01-22T21:00:00+00:00,Search index cleared
+act_82_1,account_service,account_082,DELETE_RECORD,user_1082,SUCCESS,2026-01-23T22:00:00+00:00,Primary account tombstoned
+act_82_2,backup_vault,backup_snapshot_082,RESTORE_PATH,user_1082,ACTIVE,2026-01-28T20:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_83_1,account_service,account_083,DELETE_RECORD,user_1083,SUCCESS,2026-01-24T23:00:00+00:00,Primary account tombstoned
+act_83_2,search_service,search_doc_083,INDEX_RECORD,user_1083,PRESENT,2026-01-29T21:00:00+00:00,Exposed email in search index
+act_84_1,account_service,account_084,DELETE_RECORD,user_1084,SUCCESS,2026-01-26T00:00:00+00:00,Account record deleted
+act_84_2,search_service,search_doc_084,DELETE_RECORD,user_1084,SUCCESS,2026-01-26T00:00:00+00:00,Search index cleared
+act_85_1,account_service,account_085,DELETE_RECORD,user_1085,SUCCESS,2026-01-27T01:00:00+00:00,Primary account tombstoned
+act_85_2,search_service,search_doc_085,INDEX_RECORD,user_1085,PRESENT,2026-01-31T23:00:00+00:00,Exposed email in search index
+act_86_1,account_service,account_086,DELETE_RECORD,user_1086,SUCCESS,2026-01-28T02:00:00+00:00,Primary account tombstoned
+act_86_2,crm_sync_engine,sync_job_086,RECREATE_DATA,user_1086,ACTIVE,2026-02-02T00:00:00+00:00,CRM sync job active and auto-recreating user data
+act_87_1,account_service,account_087,DELETE_RECORD,user_1087,SUCCESS,2026-01-29T03:00:00+00:00,Account record deleted
+act_87_2,search_service,search_doc_087,DELETE_RECORD,user_1087,SUCCESS,2026-01-29T03:00:00+00:00,Search index cleared
+act_88_1,account_service,account_088,DELETE_RECORD,user_1088,SUCCESS,2026-01-30T04:00:00+00:00,Primary account tombstoned
+act_88_2,search_service,search_doc_088,INDEX_RECORD,user_1088,PRESENT,2026-02-04T02:00:00+00:00,Exposed email in search index
+act_89_1,account_service,account_089,DELETE_RECORD,user_1089,SUCCESS,2026-01-31T05:00:00+00:00,Primary account tombstoned
+act_89_2,search_service,search_doc_089,INDEX_RECORD,user_1089,PRESENT,2026-02-05T03:00:00+00:00,Exposed email in search index
+act_91_1,account_service,account_091,DELETE_RECORD,user_1091,SUCCESS,2026-01-03T07:00:00+00:00,Primary account tombstoned
+act_91_2,crm_sync_engine,sync_job_091,RECREATE_DATA,user_1091,ACTIVE,2026-01-08T05:00:00+00:00,CRM sync job active and auto-recreating user data
+act_92_1,account_service,account_092,DELETE_RECORD,user_1092,SUCCESS,2026-01-04T08:00:00+00:00,Primary account tombstoned
+act_92_2,backup_vault,backup_snapshot_092,RESTORE_PATH,user_1092,ACTIVE,2026-01-09T06:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_93_1,account_service,account_093,DELETE_RECORD,user_1093,SUCCESS,2026-01-05T09:00:00+00:00,Account record deleted
+act_93_2,search_service,search_doc_093,DELETE_RECORD,user_1093,SUCCESS,2026-01-05T09:00:00+00:00,Search index cleared
+act_94_1,account_service,account_094,DELETE_RECORD,user_1094,SUCCESS,2026-01-06T10:00:00+00:00,Primary account tombstoned
+act_94_2,search_service,search_doc_094,INDEX_RECORD,user_1094,PRESENT,2026-01-11T08:00:00+00:00,Exposed email in search index
+act_95_1,account_service,account_095,DELETE_RECORD,user_1095,SUCCESS,2026-01-07T11:00:00+00:00,Primary account tombstoned
+act_95_2,search_service,search_doc_095,INDEX_RECORD,user_1095,PRESENT,2026-01-12T09:00:00+00:00,Exposed email in search index
+act_96_1,account_service,account_096,DELETE_RECORD,user_1096,SUCCESS,2026-01-07T12:00:00+00:00,Account record deleted
+act_96_2,search_service,search_doc_096,DELETE_RECORD,user_1096,SUCCESS,2026-01-07T12:00:00+00:00,Search index cleared
+act_97_1,account_service,account_097,DELETE_RECORD,user_1097,SUCCESS,2026-01-08T13:00:00+00:00,Primary account tombstoned
+act_97_2,backup_vault,backup_snapshot_097,RESTORE_PATH,user_1097,ACTIVE,2026-01-13T11:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_98_1,account_service,account_098,DELETE_RECORD,user_1098,SUCCESS,2026-01-09T14:00:00+00:00,Primary account tombstoned
+act_98_2,search_service,search_doc_098,INDEX_RECORD,user_1098,PRESENT,2026-01-14T12:00:00+00:00,Exposed email in search index
+act_99_1,account_service,account_099,DELETE_RECORD,user_1099,SUCCESS,2026-01-10T15:00:00+00:00,Account record deleted
+act_99_2,search_service,search_doc_099,DELETE_RECORD,user_1099,SUCCESS,2026-01-10T15:00:00+00:00,Search index cleared
+act_101_1,account_service,account_101,DELETE_RECORD,user_1101,SUCCESS,2026-01-12T17:00:00+00:00,Primary account tombstoned
+act_101_2,crm_sync_engine,sync_job_101,RECREATE_DATA,user_1101,ACTIVE,2026-01-17T15:00:00+00:00,CRM sync job active and auto-recreating user data
+act_102_1,account_service,account_102,DELETE_RECORD,user_1102,SUCCESS,2026-01-13T18:00:00+00:00,Account record deleted
+act_102_2,search_service,search_doc_102,DELETE_RECORD,user_1102,SUCCESS,2026-01-13T18:00:00+00:00,Search index cleared
+act_103_1,account_service,account_103,DELETE_RECORD,user_1103,SUCCESS,2026-01-14T19:00:00+00:00,Primary account tombstoned
+act_103_2,search_service,search_doc_103,INDEX_RECORD,user_1103,PRESENT,2026-01-19T17:00:00+00:00,Exposed email in search index
+act_104_1,account_service,account_104,DELETE_RECORD,user_1104,SUCCESS,2026-01-15T20:00:00+00:00,Primary account tombstoned
+act_104_2,search_service,search_doc_104,INDEX_RECORD,user_1104,PRESENT,2026-01-20T18:00:00+00:00,Exposed email in search index
+act_105_1,account_service,account_105,DELETE_RECORD,user_1105,SUCCESS,2026-01-16T21:00:00+00:00,Account record deleted
+act_105_2,search_service,search_doc_105,DELETE_RECORD,user_1105,SUCCESS,2026-01-16T21:00:00+00:00,Search index cleared
+act_106_1,account_service,account_106,DELETE_RECORD,user_1106,SUCCESS,2026-01-17T22:00:00+00:00,Primary account tombstoned
+act_106_2,crm_sync_engine,sync_job_106,RECREATE_DATA,user_1106,ACTIVE,2026-01-22T20:00:00+00:00,CRM sync job active and auto-recreating user data
+act_107_1,account_service,account_107,DELETE_RECORD,user_1107,SUCCESS,2026-01-18T23:00:00+00:00,Primary account tombstoned
+act_107_2,backup_vault,backup_snapshot_107,RESTORE_PATH,user_1107,ACTIVE,2026-01-23T21:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_108_1,account_service,account_108,DELETE_RECORD,user_1108,SUCCESS,2026-01-20T00:00:00+00:00,Account record deleted
+act_108_2,search_service,search_doc_108,DELETE_RECORD,user_1108,SUCCESS,2026-01-20T00:00:00+00:00,Search index cleared
+act_109_1,account_service,account_109,DELETE_RECORD,user_1109,SUCCESS,2026-01-21T01:00:00+00:00,Primary account tombstoned
+act_109_2,search_service,search_doc_109,INDEX_RECORD,user_1109,PRESENT,2026-01-25T23:00:00+00:00,Exposed email in search index
+act_111_1,account_service,account_111,DELETE_RECORD,user_1111,SUCCESS,2026-01-23T03:00:00+00:00,Account record deleted
+act_111_2,search_service,search_doc_111,DELETE_RECORD,user_1111,SUCCESS,2026-01-23T03:00:00+00:00,Search index cleared
+act_112_1,account_service,account_112,DELETE_RECORD,user_1112,SUCCESS,2026-01-24T04:00:00+00:00,Primary account tombstoned
+act_112_2,backup_vault,backup_snapshot_112,RESTORE_PATH,user_1112,ACTIVE,2026-01-29T02:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_113_1,account_service,account_113,DELETE_RECORD,user_1113,SUCCESS,2026-01-25T05:00:00+00:00,Primary account tombstoned
+act_113_2,search_service,search_doc_113,INDEX_RECORD,user_1113,PRESENT,2026-01-30T03:00:00+00:00,Exposed email in search index
+act_114_1,account_service,account_114,DELETE_RECORD,user_1114,SUCCESS,2026-01-26T06:00:00+00:00,Account record deleted
+act_114_2,search_service,search_doc_114,DELETE_RECORD,user_1114,SUCCESS,2026-01-26T06:00:00+00:00,Search index cleared
+act_115_1,account_service,account_115,DELETE_RECORD,user_1115,SUCCESS,2026-01-27T07:00:00+00:00,Primary account tombstoned
+act_115_2,search_service,search_doc_115,INDEX_RECORD,user_1115,PRESENT,2026-02-01T05:00:00+00:00,Exposed email in search index
+act_116_1,account_service,account_116,DELETE_RECORD,user_1116,SUCCESS,2026-01-28T08:00:00+00:00,Primary account tombstoned
+act_116_2,crm_sync_engine,sync_job_116,RECREATE_DATA,user_1116,ACTIVE,2026-02-02T06:00:00+00:00,CRM sync job active and auto-recreating user data
+act_117_1,account_service,account_117,DELETE_RECORD,user_1117,SUCCESS,2026-01-29T09:00:00+00:00,Account record deleted
+act_117_2,search_service,search_doc_117,DELETE_RECORD,user_1117,SUCCESS,2026-01-29T09:00:00+00:00,Search index cleared
+act_118_1,account_service,account_118,DELETE_RECORD,user_1118,SUCCESS,2026-01-30T10:00:00+00:00,Primary account tombstoned
+act_118_2,search_service,search_doc_118,INDEX_RECORD,user_1118,PRESENT,2026-02-04T08:00:00+00:00,Exposed email in search index
+act_119_1,account_service,account_119,DELETE_RECORD,user_1119,SUCCESS,2026-01-31T11:00:00+00:00,Primary account tombstoned
+act_119_2,search_service,search_doc_119,INDEX_RECORD,user_1119,PRESENT,2026-02-05T09:00:00+00:00,Exposed email in search index
+act_121_1,account_service,account_121,DELETE_RECORD,user_1121,SUCCESS,2026-01-02T13:00:00+00:00,Primary account tombstoned
+act_121_2,crm_sync_engine,sync_job_121,RECREATE_DATA,user_1121,ACTIVE,2026-01-07T11:00:00+00:00,CRM sync job active and auto-recreating user data
+act_122_1,account_service,account_122,DELETE_RECORD,user_1122,SUCCESS,2026-01-03T14:00:00+00:00,Primary account tombstoned
+act_122_2,backup_vault,backup_snapshot_122,RESTORE_PATH,user_1122,ACTIVE,2026-01-08T12:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_123_1,account_service,account_123,DELETE_RECORD,user_1123,SUCCESS,2026-01-04T15:00:00+00:00,Account record deleted
+act_123_2,search_service,search_doc_123,DELETE_RECORD,user_1123,SUCCESS,2026-01-04T15:00:00+00:00,Search index cleared
+act_124_1,account_service,account_124,DELETE_RECORD,user_1124,SUCCESS,2026-01-05T16:00:00+00:00,Primary account tombstoned
+act_124_2,search_service,search_doc_124,INDEX_RECORD,user_1124,PRESENT,2026-01-10T14:00:00+00:00,Exposed email in search index
+act_125_1,account_service,account_125,DELETE_RECORD,user_1125,SUCCESS,2026-01-06T17:00:00+00:00,Primary account tombstoned
+act_125_2,search_service,search_doc_125,INDEX_RECORD,user_1125,PRESENT,2026-01-11T15:00:00+00:00,Exposed email in search index
+act_126_1,account_service,account_126,DELETE_RECORD,user_1126,SUCCESS,2026-01-07T18:00:00+00:00,Account record deleted
+act_126_2,search_service,search_doc_126,DELETE_RECORD,user_1126,SUCCESS,2026-01-07T18:00:00+00:00,Search index cleared
+act_127_1,account_service,account_127,DELETE_RECORD,user_1127,SUCCESS,2026-01-08T19:00:00+00:00,Primary account tombstoned
+act_127_2,backup_vault,backup_snapshot_127,RESTORE_PATH,user_1127,ACTIVE,2026-01-13T17:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_128_1,account_service,account_128,DELETE_RECORD,user_1128,SUCCESS,2026-01-09T20:00:00+00:00,Primary account tombstoned
+act_128_2,search_service,search_doc_128,INDEX_RECORD,user_1128,PRESENT,2026-01-14T18:00:00+00:00,Exposed email in search index
+act_129_1,account_service,account_129,DELETE_RECORD,user_1129,SUCCESS,2026-01-10T21:00:00+00:00,Account record deleted
+act_129_2,search_service,search_doc_129,DELETE_RECORD,user_1129,SUCCESS,2026-01-10T21:00:00+00:00,Search index cleared
+act_131_1,account_service,account_131,DELETE_RECORD,user_1131,SUCCESS,2026-01-12T23:00:00+00:00,Primary account tombstoned
+act_131_2,crm_sync_engine,sync_job_131,RECREATE_DATA,user_1131,ACTIVE,2026-01-17T21:00:00+00:00,CRM sync job active and auto-recreating user data
+act_132_1,account_service,account_132,DELETE_RECORD,user_1132,SUCCESS,2026-01-14T00:00:00+00:00,Account record deleted
+act_132_2,search_service,search_doc_132,DELETE_RECORD,user_1132,SUCCESS,2026-01-14T00:00:00+00:00,Search index cleared
+act_133_1,account_service,account_133,DELETE_RECORD,user_1133,SUCCESS,2026-01-15T01:00:00+00:00,Primary account tombstoned
+act_133_2,search_service,search_doc_133,INDEX_RECORD,user_1133,PRESENT,2026-01-19T23:00:00+00:00,Exposed email in search index
+act_134_1,account_service,account_134,DELETE_RECORD,user_1134,SUCCESS,2026-01-16T02:00:00+00:00,Primary account tombstoned
+act_134_2,search_service,search_doc_134,INDEX_RECORD,user_1134,PRESENT,2026-01-21T00:00:00+00:00,Exposed email in search index
+act_135_1,account_service,account_135,DELETE_RECORD,user_1135,SUCCESS,2026-01-17T03:00:00+00:00,Account record deleted
+act_135_2,search_service,search_doc_135,DELETE_RECORD,user_1135,SUCCESS,2026-01-17T03:00:00+00:00,Search index cleared
+act_136_1,account_service,account_136,DELETE_RECORD,user_1136,SUCCESS,2026-01-18T04:00:00+00:00,Primary account tombstoned
+act_136_2,crm_sync_engine,sync_job_136,RECREATE_DATA,user_1136,ACTIVE,2026-01-23T02:00:00+00:00,CRM sync job active and auto-recreating user data
+act_137_1,account_service,account_137,DELETE_RECORD,user_1137,SUCCESS,2026-01-19T05:00:00+00:00,Primary account tombstoned
+act_137_2,backup_vault,backup_snapshot_137,RESTORE_PATH,user_1137,ACTIVE,2026-01-24T03:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_138_1,account_service,account_138,DELETE_RECORD,user_1138,SUCCESS,2026-01-20T06:00:00+00:00,Account record deleted
+act_138_2,search_service,search_doc_138,DELETE_RECORD,user_1138,SUCCESS,2026-01-20T06:00:00+00:00,Search index cleared
+act_139_1,account_service,account_139,DELETE_RECORD,user_1139,SUCCESS,2026-01-21T07:00:00+00:00,Primary account tombstoned
+act_139_2,search_service,search_doc_139,INDEX_RECORD,user_1139,PRESENT,2026-01-26T05:00:00+00:00,Exposed email in search index
+act_141_1,account_service,account_141,DELETE_RECORD,user_1141,SUCCESS,2026-01-23T09:00:00+00:00,Account record deleted
+act_141_2,search_service,search_doc_141,DELETE_RECORD,user_1141,SUCCESS,2026-01-23T09:00:00+00:00,Search index cleared
+act_142_1,account_service,account_142,DELETE_RECORD,user_1142,SUCCESS,2026-01-24T10:00:00+00:00,Primary account tombstoned
+act_142_2,backup_vault,backup_snapshot_142,RESTORE_PATH,user_1142,ACTIVE,2026-01-29T08:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_143_1,account_service,account_143,DELETE_RECORD,user_1143,SUCCESS,2026-01-25T11:00:00+00:00,Primary account tombstoned
+act_143_2,search_service,search_doc_143,INDEX_RECORD,user_1143,PRESENT,2026-01-30T09:00:00+00:00,Exposed email in search index
+act_144_1,account_service,account_144,DELETE_RECORD,user_1144,SUCCESS,2026-01-25T12:00:00+00:00,Account record deleted
+act_144_2,search_service,search_doc_144,DELETE_RECORD,user_1144,SUCCESS,2026-01-25T12:00:00+00:00,Search index cleared
+act_145_1,account_service,account_145,DELETE_RECORD,user_1145,SUCCESS,2026-01-26T13:00:00+00:00,Primary account tombstoned
+act_145_2,search_service,search_doc_145,INDEX_RECORD,user_1145,PRESENT,2026-01-31T11:00:00+00:00,Exposed email in search index
+act_146_1,account_service,account_146,DELETE_RECORD,user_1146,SUCCESS,2026-01-27T14:00:00+00:00,Primary account tombstoned
+act_146_2,crm_sync_engine,sync_job_146,RECREATE_DATA,user_1146,ACTIVE,2026-02-01T12:00:00+00:00,CRM sync job active and auto-recreating user data
+act_147_1,account_service,account_147,DELETE_RECORD,user_1147,SUCCESS,2026-01-28T15:00:00+00:00,Account record deleted
+act_147_2,search_service,search_doc_147,DELETE_RECORD,user_1147,SUCCESS,2026-01-28T15:00:00+00:00,Search index cleared
+act_148_1,account_service,account_148,DELETE_RECORD,user_1148,SUCCESS,2026-01-29T16:00:00+00:00,Primary account tombstoned
+act_148_2,search_service,search_doc_148,INDEX_RECORD,user_1148,PRESENT,2026-02-03T14:00:00+00:00,Exposed email in search index
+act_149_1,account_service,account_149,DELETE_RECORD,user_1149,SUCCESS,2026-01-30T17:00:00+00:00,Primary account tombstoned
+act_149_2,search_service,search_doc_149,INDEX_RECORD,user_1149,PRESENT,2026-02-04T15:00:00+00:00,Exposed email in search index
+act_151_1,account_service,account_151,DELETE_RECORD,user_1151,SUCCESS,2026-01-02T19:00:00+00:00,Primary account tombstoned
+act_151_2,crm_sync_engine,sync_job_151,RECREATE_DATA,user_1151,ACTIVE,2026-01-07T17:00:00+00:00,CRM sync job active and auto-recreating user data
+act_152_1,account_service,account_152,DELETE_RECORD,user_1152,SUCCESS,2026-01-03T20:00:00+00:00,Primary account tombstoned
+act_152_2,backup_vault,backup_snapshot_152,RESTORE_PATH,user_1152,ACTIVE,2026-01-08T18:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_153_1,account_service,account_153,DELETE_RECORD,user_1153,SUCCESS,2026-01-04T21:00:00+00:00,Account record deleted
+act_153_2,search_service,search_doc_153,DELETE_RECORD,user_1153,SUCCESS,2026-01-04T21:00:00+00:00,Search index cleared
+act_154_1,account_service,account_154,DELETE_RECORD,user_1154,SUCCESS,2026-01-05T22:00:00+00:00,Primary account tombstoned
+act_154_2,search_service,search_doc_154,INDEX_RECORD,user_1154,PRESENT,2026-01-10T20:00:00+00:00,Exposed email in search index
+act_155_1,account_service,account_155,DELETE_RECORD,user_1155,SUCCESS,2026-01-06T23:00:00+00:00,Primary account tombstoned
+act_155_2,search_service,search_doc_155,INDEX_RECORD,user_1155,PRESENT,2026-01-11T21:00:00+00:00,Exposed email in search index
+act_156_1,account_service,account_156,DELETE_RECORD,user_1156,SUCCESS,2026-01-08T00:00:00+00:00,Account record deleted
+act_156_2,search_service,search_doc_156,DELETE_RECORD,user_1156,SUCCESS,2026-01-08T00:00:00+00:00,Search index cleared
+act_157_1,account_service,account_157,DELETE_RECORD,user_1157,SUCCESS,2026-01-09T01:00:00+00:00,Primary account tombstoned
+act_157_2,backup_vault,backup_snapshot_157,RESTORE_PATH,user_1157,ACTIVE,2026-01-13T23:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_158_1,account_service,account_158,DELETE_RECORD,user_1158,SUCCESS,2026-01-10T02:00:00+00:00,Primary account tombstoned
+act_158_2,search_service,search_doc_158,INDEX_RECORD,user_1158,PRESENT,2026-01-15T00:00:00+00:00,Exposed email in search index
+act_159_1,account_service,account_159,DELETE_RECORD,user_1159,SUCCESS,2026-01-11T03:00:00+00:00,Account record deleted
+act_159_2,search_service,search_doc_159,DELETE_RECORD,user_1159,SUCCESS,2026-01-11T03:00:00+00:00,Search index cleared
+act_161_1,account_service,account_161,DELETE_RECORD,user_1161,SUCCESS,2026-01-13T05:00:00+00:00,Primary account tombstoned
+act_161_2,crm_sync_engine,sync_job_161,RECREATE_DATA,user_1161,ACTIVE,2026-01-18T03:00:00+00:00,CRM sync job active and auto-recreating user data
+act_162_1,account_service,account_162,DELETE_RECORD,user_1162,SUCCESS,2026-01-14T06:00:00+00:00,Account record deleted
+act_162_2,search_service,search_doc_162,DELETE_RECORD,user_1162,SUCCESS,2026-01-14T06:00:00+00:00,Search index cleared
+act_163_1,account_service,account_163,DELETE_RECORD,user_1163,SUCCESS,2026-01-15T07:00:00+00:00,Primary account tombstoned
+act_163_2,search_service,search_doc_163,INDEX_RECORD,user_1163,PRESENT,2026-01-20T05:00:00+00:00,Exposed email in search index
+act_164_1,account_service,account_164,DELETE_RECORD,user_1164,SUCCESS,2026-01-16T08:00:00+00:00,Primary account tombstoned
+act_164_2,search_service,search_doc_164,INDEX_RECORD,user_1164,PRESENT,2026-01-21T06:00:00+00:00,Exposed email in search index
+act_165_1,account_service,account_165,DELETE_RECORD,user_1165,SUCCESS,2026-01-17T09:00:00+00:00,Account record deleted
+act_165_2,search_service,search_doc_165,DELETE_RECORD,user_1165,SUCCESS,2026-01-17T09:00:00+00:00,Search index cleared
+act_166_1,account_service,account_166,DELETE_RECORD,user_1166,SUCCESS,2026-01-18T10:00:00+00:00,Primary account tombstoned
+act_166_2,crm_sync_engine,sync_job_166,RECREATE_DATA,user_1166,ACTIVE,2026-01-23T08:00:00+00:00,CRM sync job active and auto-recreating user data
+act_167_1,account_service,account_167,DELETE_RECORD,user_1167,SUCCESS,2026-01-19T11:00:00+00:00,Primary account tombstoned
+act_167_2,backup_vault,backup_snapshot_167,RESTORE_PATH,user_1167,ACTIVE,2026-01-24T09:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_168_1,account_service,account_168,DELETE_RECORD,user_1168,SUCCESS,2026-01-19T12:00:00+00:00,Account record deleted
+act_168_2,search_service,search_doc_168,DELETE_RECORD,user_1168,SUCCESS,2026-01-19T12:00:00+00:00,Search index cleared
+act_169_1,account_service,account_169,DELETE_RECORD,user_1169,SUCCESS,2026-01-20T13:00:00+00:00,Primary account tombstoned
+act_169_2,search_service,search_doc_169,INDEX_RECORD,user_1169,PRESENT,2026-01-25T11:00:00+00:00,Exposed email in search index
+act_171_1,account_service,account_171,DELETE_RECORD,user_1171,SUCCESS,2026-01-22T15:00:00+00:00,Account record deleted
+act_171_2,search_service,search_doc_171,DELETE_RECORD,user_1171,SUCCESS,2026-01-22T15:00:00+00:00,Search index cleared
+act_172_1,account_service,account_172,DELETE_RECORD,user_1172,SUCCESS,2026-01-23T16:00:00+00:00,Primary account tombstoned
+act_172_2,backup_vault,backup_snapshot_172,RESTORE_PATH,user_1172,ACTIVE,2026-01-28T14:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_173_1,account_service,account_173,DELETE_RECORD,user_1173,SUCCESS,2026-01-24T17:00:00+00:00,Primary account tombstoned
+act_173_2,search_service,search_doc_173,INDEX_RECORD,user_1173,PRESENT,2026-01-29T15:00:00+00:00,Exposed email in search index
+act_174_1,account_service,account_174,DELETE_RECORD,user_1174,SUCCESS,2026-01-25T18:00:00+00:00,Account record deleted
+act_174_2,search_service,search_doc_174,DELETE_RECORD,user_1174,SUCCESS,2026-01-25T18:00:00+00:00,Search index cleared
+act_175_1,account_service,account_175,DELETE_RECORD,user_1175,SUCCESS,2026-01-26T19:00:00+00:00,Primary account tombstoned
+act_175_2,search_service,search_doc_175,INDEX_RECORD,user_1175,PRESENT,2026-01-31T17:00:00+00:00,Exposed email in search index
+act_176_1,account_service,account_176,DELETE_RECORD,user_1176,SUCCESS,2026-01-27T20:00:00+00:00,Primary account tombstoned
+act_176_2,crm_sync_engine,sync_job_176,RECREATE_DATA,user_1176,ACTIVE,2026-02-01T18:00:00+00:00,CRM sync job active and auto-recreating user data
+act_177_1,account_service,account_177,DELETE_RECORD,user_1177,SUCCESS,2026-01-28T21:00:00+00:00,Account record deleted
+act_177_2,search_service,search_doc_177,DELETE_RECORD,user_1177,SUCCESS,2026-01-28T21:00:00+00:00,Search index cleared
+act_178_1,account_service,account_178,DELETE_RECORD,user_1178,SUCCESS,2026-01-29T22:00:00+00:00,Primary account tombstoned
+act_178_2,search_service,search_doc_178,INDEX_RECORD,user_1178,PRESENT,2026-02-03T20:00:00+00:00,Exposed email in search index
+act_179_1,account_service,account_179,DELETE_RECORD,user_1179,SUCCESS,2026-01-30T23:00:00+00:00,Primary account tombstoned
+act_179_2,search_service,search_doc_179,INDEX_RECORD,user_1179,PRESENT,2026-02-04T21:00:00+00:00,Exposed email in search index
+act_181_1,account_service,account_181,DELETE_RECORD,user_1181,SUCCESS,2026-01-03T01:00:00+00:00,Primary account tombstoned
+act_181_2,crm_sync_engine,sync_job_181,RECREATE_DATA,user_1181,ACTIVE,2026-01-07T23:00:00+00:00,CRM sync job active and auto-recreating user data
+act_182_1,account_service,account_182,DELETE_RECORD,user_1182,SUCCESS,2026-01-04T02:00:00+00:00,Primary account tombstoned
+act_182_2,backup_vault,backup_snapshot_182,RESTORE_PATH,user_1182,ACTIVE,2026-01-09T00:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_183_1,account_service,account_183,DELETE_RECORD,user_1183,SUCCESS,2026-01-05T03:00:00+00:00,Account record deleted
+act_183_2,search_service,search_doc_183,DELETE_RECORD,user_1183,SUCCESS,2026-01-05T03:00:00+00:00,Search index cleared
+act_184_1,account_service,account_184,DELETE_RECORD,user_1184,SUCCESS,2026-01-06T04:00:00+00:00,Primary account tombstoned
+act_184_2,search_service,search_doc_184,INDEX_RECORD,user_1184,PRESENT,2026-01-11T02:00:00+00:00,Exposed email in search index
+act_185_1,account_service,account_185,DELETE_RECORD,user_1185,SUCCESS,2026-01-07T05:00:00+00:00,Primary account tombstoned
+act_185_2,search_service,search_doc_185,INDEX_RECORD,user_1185,PRESENT,2026-01-12T03:00:00+00:00,Exposed email in search index
+act_186_1,account_service,account_186,DELETE_RECORD,user_1186,SUCCESS,2026-01-08T06:00:00+00:00,Account record deleted
+act_186_2,search_service,search_doc_186,DELETE_RECORD,user_1186,SUCCESS,2026-01-08T06:00:00+00:00,Search index cleared
+act_187_1,account_service,account_187,DELETE_RECORD,user_1187,SUCCESS,2026-01-09T07:00:00+00:00,Primary account tombstoned
+act_187_2,backup_vault,backup_snapshot_187,RESTORE_PATH,user_1187,ACTIVE,2026-01-14T05:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_188_1,account_service,account_188,DELETE_RECORD,user_1188,SUCCESS,2026-01-10T08:00:00+00:00,Primary account tombstoned
+act_188_2,search_service,search_doc_188,INDEX_RECORD,user_1188,PRESENT,2026-01-15T06:00:00+00:00,Exposed email in search index
+act_189_1,account_service,account_189,DELETE_RECORD,user_1189,SUCCESS,2026-01-11T09:00:00+00:00,Account record deleted
+act_189_2,search_service,search_doc_189,DELETE_RECORD,user_1189,SUCCESS,2026-01-11T09:00:00+00:00,Search index cleared
+act_191_1,account_service,account_191,DELETE_RECORD,user_1191,SUCCESS,2026-01-13T11:00:00+00:00,Primary account tombstoned
+act_191_2,crm_sync_engine,sync_job_191,RECREATE_DATA,user_1191,ACTIVE,2026-01-18T09:00:00+00:00,CRM sync job active and auto-recreating user data
+act_192_1,account_service,account_192,DELETE_RECORD,user_1192,SUCCESS,2026-01-13T12:00:00+00:00,Account record deleted
+act_192_2,search_service,search_doc_192,DELETE_RECORD,user_1192,SUCCESS,2026-01-13T12:00:00+00:00,Search index cleared
+act_193_1,account_service,account_193,DELETE_RECORD,user_1193,SUCCESS,2026-01-14T13:00:00+00:00,Primary account tombstoned
+act_193_2,search_service,search_doc_193,INDEX_RECORD,user_1193,PRESENT,2026-01-19T11:00:00+00:00,Exposed email in search index
+act_194_1,account_service,account_194,DELETE_RECORD,user_1194,SUCCESS,2026-01-15T14:00:00+00:00,Primary account tombstoned
+act_194_2,search_service,search_doc_194,INDEX_RECORD,user_1194,PRESENT,2026-01-20T12:00:00+00:00,Exposed email in search index
+act_195_1,account_service,account_195,DELETE_RECORD,user_1195,SUCCESS,2026-01-16T15:00:00+00:00,Account record deleted
+act_195_2,search_service,search_doc_195,DELETE_RECORD,user_1195,SUCCESS,2026-01-16T15:00:00+00:00,Search index cleared
+act_196_1,account_service,account_196,DELETE_RECORD,user_1196,SUCCESS,2026-01-17T16:00:00+00:00,Primary account tombstoned
+act_196_2,crm_sync_engine,sync_job_196,RECREATE_DATA,user_1196,ACTIVE,2026-01-22T14:00:00+00:00,CRM sync job active and auto-recreating user data
+act_197_1,account_service,account_197,DELETE_RECORD,user_1197,SUCCESS,2026-01-18T17:00:00+00:00,Primary account tombstoned
+act_197_2,backup_vault,backup_snapshot_197,RESTORE_PATH,user_1197,ACTIVE,2026-01-23T15:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_198_1,account_service,account_198,DELETE_RECORD,user_1198,SUCCESS,2026-01-19T18:00:00+00:00,Account record deleted
+act_198_2,search_service,search_doc_198,DELETE_RECORD,user_1198,SUCCESS,2026-01-19T18:00:00+00:00,Search index cleared
+act_199_1,account_service,account_199,DELETE_RECORD,user_1199,SUCCESS,2026-01-20T19:00:00+00:00,Primary account tombstoned
+act_199_2,search_service,search_doc_199,INDEX_RECORD,user_1199,PRESENT,2026-01-25T17:00:00+00:00,Exposed email in search index
+act_201_1,account_service,account_201,DELETE_RECORD,user_1201,SUCCESS,2026-01-22T21:00:00+00:00,Account record deleted
+act_201_2,search_service,search_doc_201,DELETE_RECORD,user_1201,SUCCESS,2026-01-22T21:00:00+00:00,Search index cleared
+act_202_1,account_service,account_202,DELETE_RECORD,user_1202,SUCCESS,2026-01-23T22:00:00+00:00,Primary account tombstoned
+act_202_2,backup_vault,backup_snapshot_202,RESTORE_PATH,user_1202,ACTIVE,2026-01-28T20:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_203_1,account_service,account_203,DELETE_RECORD,user_1203,SUCCESS,2026-01-24T23:00:00+00:00,Primary account tombstoned
+act_203_2,search_service,search_doc_203,INDEX_RECORD,user_1203,PRESENT,2026-01-29T21:00:00+00:00,Exposed email in search index
+act_204_1,account_service,account_204,DELETE_RECORD,user_1204,SUCCESS,2026-01-26T00:00:00+00:00,Account record deleted
+act_204_2,search_service,search_doc_204,DELETE_RECORD,user_1204,SUCCESS,2026-01-26T00:00:00+00:00,Search index cleared
+act_205_1,account_service,account_205,DELETE_RECORD,user_1205,SUCCESS,2026-01-27T01:00:00+00:00,Primary account tombstoned
+act_205_2,search_service,search_doc_205,INDEX_RECORD,user_1205,PRESENT,2026-01-31T23:00:00+00:00,Exposed email in search index
+act_206_1,account_service,account_206,DELETE_RECORD,user_1206,SUCCESS,2026-01-28T02:00:00+00:00,Primary account tombstoned
+act_206_2,crm_sync_engine,sync_job_206,RECREATE_DATA,user_1206,ACTIVE,2026-02-02T00:00:00+00:00,CRM sync job active and auto-recreating user data
+act_207_1,account_service,account_207,DELETE_RECORD,user_1207,SUCCESS,2026-01-29T03:00:00+00:00,Account record deleted
+act_207_2,search_service,search_doc_207,DELETE_RECORD,user_1207,SUCCESS,2026-01-29T03:00:00+00:00,Search index cleared
+act_208_1,account_service,account_208,DELETE_RECORD,user_1208,SUCCESS,2026-01-30T04:00:00+00:00,Primary account tombstoned
+act_208_2,search_service,search_doc_208,INDEX_RECORD,user_1208,PRESENT,2026-02-04T02:00:00+00:00,Exposed email in search index
+act_209_1,account_service,account_209,DELETE_RECORD,user_1209,SUCCESS,2026-01-31T05:00:00+00:00,Primary account tombstoned
+act_209_2,search_service,search_doc_209,INDEX_RECORD,user_1209,PRESENT,2026-02-05T03:00:00+00:00,Exposed email in search index
+act_211_1,account_service,account_211,DELETE_RECORD,user_1211,SUCCESS,2026-01-03T07:00:00+00:00,Primary account tombstoned
+act_211_2,crm_sync_engine,sync_job_211,RECREATE_DATA,user_1211,ACTIVE,2026-01-08T05:00:00+00:00,CRM sync job active and auto-recreating user data
+act_212_1,account_service,account_212,DELETE_RECORD,user_1212,SUCCESS,2026-01-04T08:00:00+00:00,Primary account tombstoned
+act_212_2,backup_vault,backup_snapshot_212,RESTORE_PATH,user_1212,ACTIVE,2026-01-09T06:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_213_1,account_service,account_213,DELETE_RECORD,user_1213,SUCCESS,2026-01-05T09:00:00+00:00,Account record deleted
+act_213_2,search_service,search_doc_213,DELETE_RECORD,user_1213,SUCCESS,2026-01-05T09:00:00+00:00,Search index cleared
+act_214_1,account_service,account_214,DELETE_RECORD,user_1214,SUCCESS,2026-01-06T10:00:00+00:00,Primary account tombstoned
+act_214_2,search_service,search_doc_214,INDEX_RECORD,user_1214,PRESENT,2026-01-11T08:00:00+00:00,Exposed email in search index
+act_215_1,account_service,account_215,DELETE_RECORD,user_1215,SUCCESS,2026-01-07T11:00:00+00:00,Primary account tombstoned
+act_215_2,search_service,search_doc_215,INDEX_RECORD,user_1215,PRESENT,2026-01-12T09:00:00+00:00,Exposed email in search index
+act_216_1,account_service,account_216,DELETE_RECORD,user_1216,SUCCESS,2026-01-07T12:00:00+00:00,Account record deleted
+act_216_2,search_service,search_doc_216,DELETE_RECORD,user_1216,SUCCESS,2026-01-07T12:00:00+00:00,Search index cleared
+act_217_1,account_service,account_217,DELETE_RECORD,user_1217,SUCCESS,2026-01-08T13:00:00+00:00,Primary account tombstoned
+act_217_2,backup_vault,backup_snapshot_217,RESTORE_PATH,user_1217,ACTIVE,2026-01-13T11:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_218_1,account_service,account_218,DELETE_RECORD,user_1218,SUCCESS,2026-01-09T14:00:00+00:00,Primary account tombstoned
+act_218_2,search_service,search_doc_218,INDEX_RECORD,user_1218,PRESENT,2026-01-14T12:00:00+00:00,Exposed email in search index
+act_219_1,account_service,account_219,DELETE_RECORD,user_1219,SUCCESS,2026-01-10T15:00:00+00:00,Account record deleted
+act_219_2,search_service,search_doc_219,DELETE_RECORD,user_1219,SUCCESS,2026-01-10T15:00:00+00:00,Search index cleared
+act_221_1,account_service,account_221,DELETE_RECORD,user_1221,SUCCESS,2026-01-12T17:00:00+00:00,Primary account tombstoned
+act_221_2,crm_sync_engine,sync_job_221,RECREATE_DATA,user_1221,ACTIVE,2026-01-17T15:00:00+00:00,CRM sync job active and auto-recreating user data
+act_222_1,account_service,account_222,DELETE_RECORD,user_1222,SUCCESS,2026-01-13T18:00:00+00:00,Account record deleted
+act_222_2,search_service,search_doc_222,DELETE_RECORD,user_1222,SUCCESS,2026-01-13T18:00:00+00:00,Search index cleared
+act_223_1,account_service,account_223,DELETE_RECORD,user_1223,SUCCESS,2026-01-14T19:00:00+00:00,Primary account tombstoned
+act_223_2,search_service,search_doc_223,INDEX_RECORD,user_1223,PRESENT,2026-01-19T17:00:00+00:00,Exposed email in search index
+act_224_1,account_service,account_224,DELETE_RECORD,user_1224,SUCCESS,2026-01-15T20:00:00+00:00,Primary account tombstoned
+act_224_2,search_service,search_doc_224,INDEX_RECORD,user_1224,PRESENT,2026-01-20T18:00:00+00:00,Exposed email in search index
+act_225_1,account_service,account_225,DELETE_RECORD,user_1225,SUCCESS,2026-01-16T21:00:00+00:00,Account record deleted
+act_225_2,search_service,search_doc_225,DELETE_RECORD,user_1225,SUCCESS,2026-01-16T21:00:00+00:00,Search index cleared
+act_226_1,account_service,account_226,DELETE_RECORD,user_1226,SUCCESS,2026-01-17T22:00:00+00:00,Primary account tombstoned
+act_226_2,crm_sync_engine,sync_job_226,RECREATE_DATA,user_1226,ACTIVE,2026-01-22T20:00:00+00:00,CRM sync job active and auto-recreating user data
+act_227_1,account_service,account_227,DELETE_RECORD,user_1227,SUCCESS,2026-01-18T23:00:00+00:00,Primary account tombstoned
+act_227_2,backup_vault,backup_snapshot_227,RESTORE_PATH,user_1227,ACTIVE,2026-01-23T21:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_228_1,account_service,account_228,DELETE_RECORD,user_1228,SUCCESS,2026-01-20T00:00:00+00:00,Account record deleted
+act_228_2,search_service,search_doc_228,DELETE_RECORD,user_1228,SUCCESS,2026-01-20T00:00:00+00:00,Search index cleared
+act_229_1,account_service,account_229,DELETE_RECORD,user_1229,SUCCESS,2026-01-21T01:00:00+00:00,Primary account tombstoned
+act_229_2,search_service,search_doc_229,INDEX_RECORD,user_1229,PRESENT,2026-01-25T23:00:00+00:00,Exposed email in search index
+act_231_1,account_service,account_231,DELETE_RECORD,user_1231,SUCCESS,2026-01-23T03:00:00+00:00,Account record deleted
+act_231_2,search_service,search_doc_231,DELETE_RECORD,user_1231,SUCCESS,2026-01-23T03:00:00+00:00,Search index cleared
+act_232_1,account_service,account_232,DELETE_RECORD,user_1232,SUCCESS,2026-01-24T04:00:00+00:00,Primary account tombstoned
+act_232_2,backup_vault,backup_snapshot_232,RESTORE_PATH,user_1232,ACTIVE,2026-01-29T02:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_233_1,account_service,account_233,DELETE_RECORD,user_1233,SUCCESS,2026-01-25T05:00:00+00:00,Primary account tombstoned
+act_233_2,search_service,search_doc_233,INDEX_RECORD,user_1233,PRESENT,2026-01-30T03:00:00+00:00,Exposed email in search index
+act_234_1,account_service,account_234,DELETE_RECORD,user_1234,SUCCESS,2026-01-26T06:00:00+00:00,Account record deleted
+act_234_2,search_service,search_doc_234,DELETE_RECORD,user_1234,SUCCESS,2026-01-26T06:00:00+00:00,Search index cleared
+act_235_1,account_service,account_235,DELETE_RECORD,user_1235,SUCCESS,2026-01-27T07:00:00+00:00,Primary account tombstoned
+act_235_2,search_service,search_doc_235,INDEX_RECORD,user_1235,PRESENT,2026-02-01T05:00:00+00:00,Exposed email in search index
+act_236_1,account_service,account_236,DELETE_RECORD,user_1236,SUCCESS,2026-01-28T08:00:00+00:00,Primary account tombstoned
+act_236_2,crm_sync_engine,sync_job_236,RECREATE_DATA,user_1236,ACTIVE,2026-02-02T06:00:00+00:00,CRM sync job active and auto-recreating user data
+act_237_1,account_service,account_237,DELETE_RECORD,user_1237,SUCCESS,2026-01-29T09:00:00+00:00,Account record deleted
+act_237_2,search_service,search_doc_237,DELETE_RECORD,user_1237,SUCCESS,2026-01-29T09:00:00+00:00,Search index cleared
+act_238_1,account_service,account_238,DELETE_RECORD,user_1238,SUCCESS,2026-01-30T10:00:00+00:00,Primary account tombstoned
+act_238_2,search_service,search_doc_238,INDEX_RECORD,user_1238,PRESENT,2026-02-04T08:00:00+00:00,Exposed email in search index
+act_239_1,account_service,account_239,DELETE_RECORD,user_1239,SUCCESS,2026-01-31T11:00:00+00:00,Primary account tombstoned
+act_239_2,search_service,search_doc_239,INDEX_RECORD,user_1239,PRESENT,2026-02-05T09:00:00+00:00,Exposed email in search index
+act_241_1,account_service,account_241,DELETE_RECORD,user_1241,SUCCESS,2026-01-02T13:00:00+00:00,Primary account tombstoned
+act_241_2,crm_sync_engine,sync_job_241,RECREATE_DATA,user_1241,ACTIVE,2026-01-07T11:00:00+00:00,CRM sync job active and auto-recreating user data
+act_242_1,account_service,account_242,DELETE_RECORD,user_1242,SUCCESS,2026-01-03T14:00:00+00:00,Primary account tombstoned
+act_242_2,backup_vault,backup_snapshot_242,RESTORE_PATH,user_1242,ACTIVE,2026-01-08T12:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_243_1,account_service,account_243,DELETE_RECORD,user_1243,SUCCESS,2026-01-04T15:00:00+00:00,Account record deleted
+act_243_2,search_service,search_doc_243,DELETE_RECORD,user_1243,SUCCESS,2026-01-04T15:00:00+00:00,Search index cleared
+act_244_1,account_service,account_244,DELETE_RECORD,user_1244,SUCCESS,2026-01-05T16:00:00+00:00,Primary account tombstoned
+act_244_2,search_service,search_doc_244,INDEX_RECORD,user_1244,PRESENT,2026-01-10T14:00:00+00:00,Exposed email in search index
+act_245_1,account_service,account_245,DELETE_RECORD,user_1245,SUCCESS,2026-01-06T17:00:00+00:00,Primary account tombstoned
+act_245_2,search_service,search_doc_245,INDEX_RECORD,user_1245,PRESENT,2026-01-11T15:00:00+00:00,Exposed email in search index
+act_246_1,account_service,account_246,DELETE_RECORD,user_1246,SUCCESS,2026-01-07T18:00:00+00:00,Account record deleted
+act_246_2,search_service,search_doc_246,DELETE_RECORD,user_1246,SUCCESS,2026-01-07T18:00:00+00:00,Search index cleared
+act_247_1,account_service,account_247,DELETE_RECORD,user_1247,SUCCESS,2026-01-08T19:00:00+00:00,Primary account tombstoned
+act_247_2,backup_vault,backup_snapshot_247,RESTORE_PATH,user_1247,ACTIVE,2026-01-13T17:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_248_1,account_service,account_248,DELETE_RECORD,user_1248,SUCCESS,2026-01-09T20:00:00+00:00,Primary account tombstoned
+act_248_2,search_service,search_doc_248,INDEX_RECORD,user_1248,PRESENT,2026-01-14T18:00:00+00:00,Exposed email in search index
+act_249_1,account_service,account_249,DELETE_RECORD,user_1249,SUCCESS,2026-01-10T21:00:00+00:00,Account record deleted
+act_249_2,search_service,search_doc_249,DELETE_RECORD,user_1249,SUCCESS,2026-01-10T21:00:00+00:00,Search index cleared
+act_251_1,account_service,account_251,DELETE_RECORD,user_1251,SUCCESS,2026-01-12T23:00:00+00:00,Primary account tombstoned
+act_251_2,crm_sync_engine,sync_job_251,RECREATE_DATA,user_1251,ACTIVE,2026-01-17T21:00:00+00:00,CRM sync job active and auto-recreating user data
+act_252_1,account_service,account_252,DELETE_RECORD,user_1252,SUCCESS,2026-01-14T00:00:00+00:00,Account record deleted
+act_252_2,search_service,search_doc_252,DELETE_RECORD,user_1252,SUCCESS,2026-01-14T00:00:00+00:00,Search index cleared
+act_253_1,account_service,account_253,DELETE_RECORD,user_1253,SUCCESS,2026-01-15T01:00:00+00:00,Primary account tombstoned
+act_253_2,search_service,search_doc_253,INDEX_RECORD,user_1253,PRESENT,2026-01-19T23:00:00+00:00,Exposed email in search index
+act_254_1,account_service,account_254,DELETE_RECORD,user_1254,SUCCESS,2026-01-16T02:00:00+00:00,Primary account tombstoned
+act_254_2,search_service,search_doc_254,INDEX_RECORD,user_1254,PRESENT,2026-01-21T00:00:00+00:00,Exposed email in search index
+act_255_1,account_service,account_255,DELETE_RECORD,user_1255,SUCCESS,2026-01-17T03:00:00+00:00,Account record deleted
+act_255_2,search_service,search_doc_255,DELETE_RECORD,user_1255,SUCCESS,2026-01-17T03:00:00+00:00,Search index cleared
+act_256_1,account_service,account_256,DELETE_RECORD,user_1256,SUCCESS,2026-01-18T04:00:00+00:00,Primary account tombstoned
+act_256_2,crm_sync_engine,sync_job_256,RECREATE_DATA,user_1256,ACTIVE,2026-01-23T02:00:00+00:00,CRM sync job active and auto-recreating user data
+act_257_1,account_service,account_257,DELETE_RECORD,user_1257,SUCCESS,2026-01-19T05:00:00+00:00,Primary account tombstoned
+act_257_2,backup_vault,backup_snapshot_257,RESTORE_PATH,user_1257,ACTIVE,2026-01-24T03:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_258_1,account_service,account_258,DELETE_RECORD,user_1258,SUCCESS,2026-01-20T06:00:00+00:00,Account record deleted
+act_258_2,search_service,search_doc_258,DELETE_RECORD,user_1258,SUCCESS,2026-01-20T06:00:00+00:00,Search index cleared
+act_259_1,account_service,account_259,DELETE_RECORD,user_1259,SUCCESS,2026-01-21T07:00:00+00:00,Primary account tombstoned
+act_259_2,search_service,search_doc_259,INDEX_RECORD,user_1259,PRESENT,2026-01-26T05:00:00+00:00,Exposed email in search index
+act_261_1,account_service,account_261,DELETE_RECORD,user_1261,SUCCESS,2026-01-23T09:00:00+00:00,Account record deleted
+act_261_2,search_service,search_doc_261,DELETE_RECORD,user_1261,SUCCESS,2026-01-23T09:00:00+00:00,Search index cleared
+act_262_1,account_service,account_262,DELETE_RECORD,user_1262,SUCCESS,2026-01-24T10:00:00+00:00,Primary account tombstoned
+act_262_2,backup_vault,backup_snapshot_262,RESTORE_PATH,user_1262,ACTIVE,2026-01-29T08:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_263_1,account_service,account_263,DELETE_RECORD,user_1263,SUCCESS,2026-01-25T11:00:00+00:00,Primary account tombstoned
+act_263_2,search_service,search_doc_263,INDEX_RECORD,user_1263,PRESENT,2026-01-30T09:00:00+00:00,Exposed email in search index
+act_264_1,account_service,account_264,DELETE_RECORD,user_1264,SUCCESS,2026-01-25T12:00:00+00:00,Account record deleted
+act_264_2,search_service,search_doc_264,DELETE_RECORD,user_1264,SUCCESS,2026-01-25T12:00:00+00:00,Search index cleared
+act_265_1,account_service,account_265,DELETE_RECORD,user_1265,SUCCESS,2026-01-26T13:00:00+00:00,Primary account tombstoned
+act_265_2,search_service,search_doc_265,INDEX_RECORD,user_1265,PRESENT,2026-01-31T11:00:00+00:00,Exposed email in search index
+act_266_1,account_service,account_266,DELETE_RECORD,user_1266,SUCCESS,2026-01-27T14:00:00+00:00,Primary account tombstoned
+act_266_2,crm_sync_engine,sync_job_266,RECREATE_DATA,user_1266,ACTIVE,2026-02-01T12:00:00+00:00,CRM sync job active and auto-recreating user data
+act_267_1,account_service,account_267,DELETE_RECORD,user_1267,SUCCESS,2026-01-28T15:00:00+00:00,Account record deleted
+act_267_2,search_service,search_doc_267,DELETE_RECORD,user_1267,SUCCESS,2026-01-28T15:00:00+00:00,Search index cleared
+act_268_1,account_service,account_268,DELETE_RECORD,user_1268,SUCCESS,2026-01-29T16:00:00+00:00,Primary account tombstoned
+act_268_2,search_service,search_doc_268,INDEX_RECORD,user_1268,PRESENT,2026-02-03T14:00:00+00:00,Exposed email in search index
+act_269_1,account_service,account_269,DELETE_RECORD,user_1269,SUCCESS,2026-01-30T17:00:00+00:00,Primary account tombstoned
+act_269_2,search_service,search_doc_269,INDEX_RECORD,user_1269,PRESENT,2026-02-04T15:00:00+00:00,Exposed email in search index
+act_271_1,account_service,account_271,DELETE_RECORD,user_1271,SUCCESS,2026-01-02T19:00:00+00:00,Primary account tombstoned
+act_271_2,crm_sync_engine,sync_job_271,RECREATE_DATA,user_1271,ACTIVE,2026-01-07T17:00:00+00:00,CRM sync job active and auto-recreating user data
+act_272_1,account_service,account_272,DELETE_RECORD,user_1272,SUCCESS,2026-01-03T20:00:00+00:00,Primary account tombstoned
+act_272_2,backup_vault,backup_snapshot_272,RESTORE_PATH,user_1272,ACTIVE,2026-01-08T18:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_273_1,account_service,account_273,DELETE_RECORD,user_1273,SUCCESS,2026-01-04T21:00:00+00:00,Account record deleted
+act_273_2,search_service,search_doc_273,DELETE_RECORD,user_1273,SUCCESS,2026-01-04T21:00:00+00:00,Search index cleared
+act_274_1,account_service,account_274,DELETE_RECORD,user_1274,SUCCESS,2026-01-05T22:00:00+00:00,Primary account tombstoned
+act_274_2,search_service,search_doc_274,INDEX_RECORD,user_1274,PRESENT,2026-01-10T20:00:00+00:00,Exposed email in search index
+act_275_1,account_service,account_275,DELETE_RECORD,user_1275,SUCCESS,2026-01-06T23:00:00+00:00,Primary account tombstoned
+act_275_2,search_service,search_doc_275,INDEX_RECORD,user_1275,PRESENT,2026-01-11T21:00:00+00:00,Exposed email in search index
+act_276_1,account_service,account_276,DELETE_RECORD,user_1276,SUCCESS,2026-01-08T00:00:00+00:00,Account record deleted
+act_276_2,search_service,search_doc_276,DELETE_RECORD,user_1276,SUCCESS,2026-01-08T00:00:00+00:00,Search index cleared
+act_277_1,account_service,account_277,DELETE_RECORD,user_1277,SUCCESS,2026-01-09T01:00:00+00:00,Primary account tombstoned
+act_277_2,backup_vault,backup_snapshot_277,RESTORE_PATH,user_1277,ACTIVE,2026-01-13T23:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_278_1,account_service,account_278,DELETE_RECORD,user_1278,SUCCESS,2026-01-10T02:00:00+00:00,Primary account tombstoned
+act_278_2,search_service,search_doc_278,INDEX_RECORD,user_1278,PRESENT,2026-01-15T00:00:00+00:00,Exposed email in search index
+act_279_1,account_service,account_279,DELETE_RECORD,user_1279,SUCCESS,2026-01-11T03:00:00+00:00,Account record deleted
+act_279_2,search_service,search_doc_279,DELETE_RECORD,user_1279,SUCCESS,2026-01-11T03:00:00+00:00,Search index cleared
+act_281_1,account_service,account_281,DELETE_RECORD,user_1281,SUCCESS,2026-01-13T05:00:00+00:00,Primary account tombstoned
+act_281_2,crm_sync_engine,sync_job_281,RECREATE_DATA,user_1281,ACTIVE,2026-01-18T03:00:00+00:00,CRM sync job active and auto-recreating user data
+act_282_1,account_service,account_282,DELETE_RECORD,user_1282,SUCCESS,2026-01-14T06:00:00+00:00,Account record deleted
+act_282_2,search_service,search_doc_282,DELETE_RECORD,user_1282,SUCCESS,2026-01-14T06:00:00+00:00,Search index cleared
+act_283_1,account_service,account_283,DELETE_RECORD,user_1283,SUCCESS,2026-01-15T07:00:00+00:00,Primary account tombstoned
+act_283_2,search_service,search_doc_283,INDEX_RECORD,user_1283,PRESENT,2026-01-20T05:00:00+00:00,Exposed email in search index
+act_284_1,account_service,account_284,DELETE_RECORD,user_1284,SUCCESS,2026-01-16T08:00:00+00:00,Primary account tombstoned
+act_284_2,search_service,search_doc_284,INDEX_RECORD,user_1284,PRESENT,2026-01-21T06:00:00+00:00,Exposed email in search index
+act_285_1,account_service,account_285,DELETE_RECORD,user_1285,SUCCESS,2026-01-17T09:00:00+00:00,Account record deleted
+act_285_2,search_service,search_doc_285,DELETE_RECORD,user_1285,SUCCESS,2026-01-17T09:00:00+00:00,Search index cleared
+act_286_1,account_service,account_286,DELETE_RECORD,user_1286,SUCCESS,2026-01-18T10:00:00+00:00,Primary account tombstoned
+act_286_2,crm_sync_engine,sync_job_286,RECREATE_DATA,user_1286,ACTIVE,2026-01-23T08:00:00+00:00,CRM sync job active and auto-recreating user data
+act_287_1,account_service,account_287,DELETE_RECORD,user_1287,SUCCESS,2026-01-19T11:00:00+00:00,Primary account tombstoned
+act_287_2,backup_vault,backup_snapshot_287,RESTORE_PATH,user_1287,ACTIVE,2026-01-24T09:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_288_1,account_service,account_288,DELETE_RECORD,user_1288,SUCCESS,2026-01-19T12:00:00+00:00,Account record deleted
+act_288_2,search_service,search_doc_288,DELETE_RECORD,user_1288,SUCCESS,2026-01-19T12:00:00+00:00,Search index cleared
+act_289_1,account_service,account_289,DELETE_RECORD,user_1289,SUCCESS,2026-01-20T13:00:00+00:00,Primary account tombstoned
+act_289_2,search_service,search_doc_289,INDEX_RECORD,user_1289,PRESENT,2026-01-25T11:00:00+00:00,Exposed email in search index
+act_291_1,account_service,account_291,DELETE_RECORD,user_1291,SUCCESS,2026-01-22T15:00:00+00:00,Account record deleted
+act_291_2,search_service,search_doc_291,DELETE_RECORD,user_1291,SUCCESS,2026-01-22T15:00:00+00:00,Search index cleared
+act_292_1,account_service,account_292,DELETE_RECORD,user_1292,SUCCESS,2026-01-23T16:00:00+00:00,Primary account tombstoned
+act_292_2,backup_vault,backup_snapshot_292,RESTORE_PATH,user_1292,ACTIVE,2026-01-28T14:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_293_1,account_service,account_293,DELETE_RECORD,user_1293,SUCCESS,2026-01-24T17:00:00+00:00,Primary account tombstoned
+act_293_2,search_service,search_doc_293,INDEX_RECORD,user_1293,PRESENT,2026-01-29T15:00:00+00:00,Exposed email in search index
+act_294_1,account_service,account_294,DELETE_RECORD,user_1294,SUCCESS,2026-01-25T18:00:00+00:00,Account record deleted
+act_294_2,search_service,search_doc_294,DELETE_RECORD,user_1294,SUCCESS,2026-01-25T18:00:00+00:00,Search index cleared
+act_295_1,account_service,account_295,DELETE_RECORD,user_1295,SUCCESS,2026-01-26T19:00:00+00:00,Primary account tombstoned
+act_295_2,search_service,search_doc_295,INDEX_RECORD,user_1295,PRESENT,2026-01-31T17:00:00+00:00,Exposed email in search index
+act_296_1,account_service,account_296,DELETE_RECORD,user_1296,SUCCESS,2026-01-27T20:00:00+00:00,Primary account tombstoned
+act_296_2,crm_sync_engine,sync_job_296,RECREATE_DATA,user_1296,ACTIVE,2026-02-01T18:00:00+00:00,CRM sync job active and auto-recreating user data
+act_297_1,account_service,account_297,DELETE_RECORD,user_1297,SUCCESS,2026-01-28T21:00:00+00:00,Account record deleted
+act_297_2,search_service,search_doc_297,DELETE_RECORD,user_1297,SUCCESS,2026-01-28T21:00:00+00:00,Search index cleared
+act_298_1,account_service,account_298,DELETE_RECORD,user_1298,SUCCESS,2026-01-29T22:00:00+00:00,Primary account tombstoned
+act_298_2,search_service,search_doc_298,INDEX_RECORD,user_1298,PRESENT,2026-02-03T20:00:00+00:00,Exposed email in search index
+act_299_1,account_service,account_299,DELETE_RECORD,user_1299,SUCCESS,2026-01-30T23:00:00+00:00,Primary account tombstoned
+act_299_2,search_service,search_doc_299,INDEX_RECORD,user_1299,PRESENT,2026-02-04T21:00:00+00:00,Exposed email in search index
+act_301_1,account_service,account_301,DELETE_RECORD,user_1301,SUCCESS,2026-01-03T01:00:00+00:00,Primary account tombstoned
+act_301_2,crm_sync_engine,sync_job_301,RECREATE_DATA,user_1301,ACTIVE,2026-01-07T23:00:00+00:00,CRM sync job active and auto-recreating user data
+act_302_1,account_service,account_302,DELETE_RECORD,user_1302,SUCCESS,2026-01-04T02:00:00+00:00,Primary account tombstoned
+act_302_2,backup_vault,backup_snapshot_302,RESTORE_PATH,user_1302,ACTIVE,2026-01-09T00:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_303_1,account_service,account_303,DELETE_RECORD,user_1303,SUCCESS,2026-01-05T03:00:00+00:00,Account record deleted
+act_303_2,search_service,search_doc_303,DELETE_RECORD,user_1303,SUCCESS,2026-01-05T03:00:00+00:00,Search index cleared
+act_304_1,account_service,account_304,DELETE_RECORD,user_1304,SUCCESS,2026-01-06T04:00:00+00:00,Primary account tombstoned
+act_304_2,search_service,search_doc_304,INDEX_RECORD,user_1304,PRESENT,2026-01-11T02:00:00+00:00,Exposed email in search index
+act_305_1,account_service,account_305,DELETE_RECORD,user_1305,SUCCESS,2026-01-07T05:00:00+00:00,Primary account tombstoned
+act_305_2,search_service,search_doc_305,INDEX_RECORD,user_1305,PRESENT,2026-01-12T03:00:00+00:00,Exposed email in search index
+act_306_1,account_service,account_306,DELETE_RECORD,user_1306,SUCCESS,2026-01-08T06:00:00+00:00,Account record deleted
+act_306_2,search_service,search_doc_306,DELETE_RECORD,user_1306,SUCCESS,2026-01-08T06:00:00+00:00,Search index cleared
+act_307_1,account_service,account_307,DELETE_RECORD,user_1307,SUCCESS,2026-01-09T07:00:00+00:00,Primary account tombstoned
+act_307_2,backup_vault,backup_snapshot_307,RESTORE_PATH,user_1307,ACTIVE,2026-01-14T05:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_308_1,account_service,account_308,DELETE_RECORD,user_1308,SUCCESS,2026-01-10T08:00:00+00:00,Primary account tombstoned
+act_308_2,search_service,search_doc_308,INDEX_RECORD,user_1308,PRESENT,2026-01-15T06:00:00+00:00,Exposed email in search index
+act_309_1,account_service,account_309,DELETE_RECORD,user_1309,SUCCESS,2026-01-11T09:00:00+00:00,Account record deleted
+act_309_2,search_service,search_doc_309,DELETE_RECORD,user_1309,SUCCESS,2026-01-11T09:00:00+00:00,Search index cleared
+act_311_1,account_service,account_311,DELETE_RECORD,user_1311,SUCCESS,2026-01-13T11:00:00+00:00,Primary account tombstoned
+act_311_2,crm_sync_engine,sync_job_311,RECREATE_DATA,user_1311,ACTIVE,2026-01-18T09:00:00+00:00,CRM sync job active and auto-recreating user data
+act_312_1,account_service,account_312,DELETE_RECORD,user_1312,SUCCESS,2026-01-13T12:00:00+00:00,Account record deleted
+act_312_2,search_service,search_doc_312,DELETE_RECORD,user_1312,SUCCESS,2026-01-13T12:00:00+00:00,Search index cleared
+act_313_1,account_service,account_313,DELETE_RECORD,user_1313,SUCCESS,2026-01-14T13:00:00+00:00,Primary account tombstoned
+act_313_2,search_service,search_doc_313,INDEX_RECORD,user_1313,PRESENT,2026-01-19T11:00:00+00:00,Exposed email in search index
+act_314_1,account_service,account_314,DELETE_RECORD,user_1314,SUCCESS,2026-01-15T14:00:00+00:00,Primary account tombstoned
+act_314_2,search_service,search_doc_314,INDEX_RECORD,user_1314,PRESENT,2026-01-20T12:00:00+00:00,Exposed email in search index
+act_315_1,account_service,account_315,DELETE_RECORD,user_1315,SUCCESS,2026-01-16T15:00:00+00:00,Account record deleted
+act_315_2,search_service,search_doc_315,DELETE_RECORD,user_1315,SUCCESS,2026-01-16T15:00:00+00:00,Search index cleared
+act_316_1,account_service,account_316,DELETE_RECORD,user_1316,SUCCESS,2026-01-17T16:00:00+00:00,Primary account tombstoned
+act_316_2,crm_sync_engine,sync_job_316,RECREATE_DATA,user_1316,ACTIVE,2026-01-22T14:00:00+00:00,CRM sync job active and auto-recreating user data
+act_317_1,account_service,account_317,DELETE_RECORD,user_1317,SUCCESS,2026-01-18T17:00:00+00:00,Primary account tombstoned
+act_317_2,backup_vault,backup_snapshot_317,RESTORE_PATH,user_1317,ACTIVE,2026-01-23T15:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_318_1,account_service,account_318,DELETE_RECORD,user_1318,SUCCESS,2026-01-19T18:00:00+00:00,Account record deleted
+act_318_2,search_service,search_doc_318,DELETE_RECORD,user_1318,SUCCESS,2026-01-19T18:00:00+00:00,Search index cleared
+act_319_1,account_service,account_319,DELETE_RECORD,user_1319,SUCCESS,2026-01-20T19:00:00+00:00,Primary account tombstoned
+act_319_2,search_service,search_doc_319,INDEX_RECORD,user_1319,PRESENT,2026-01-25T17:00:00+00:00,Exposed email in search index
+act_321_1,account_service,account_321,DELETE_RECORD,user_1321,SUCCESS,2026-01-22T21:00:00+00:00,Account record deleted
+act_321_2,search_service,search_doc_321,DELETE_RECORD,user_1321,SUCCESS,2026-01-22T21:00:00+00:00,Search index cleared
+act_322_1,account_service,account_322,DELETE_RECORD,user_1322,SUCCESS,2026-01-23T22:00:00+00:00,Primary account tombstoned
+act_322_2,backup_vault,backup_snapshot_322,RESTORE_PATH,user_1322,ACTIVE,2026-01-28T20:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_323_1,account_service,account_323,DELETE_RECORD,user_1323,SUCCESS,2026-01-24T23:00:00+00:00,Primary account tombstoned
+act_323_2,search_service,search_doc_323,INDEX_RECORD,user_1323,PRESENT,2026-01-29T21:00:00+00:00,Exposed email in search index
+act_324_1,account_service,account_324,DELETE_RECORD,user_1324,SUCCESS,2026-01-26T00:00:00+00:00,Account record deleted
+act_324_2,search_service,search_doc_324,DELETE_RECORD,user_1324,SUCCESS,2026-01-26T00:00:00+00:00,Search index cleared
+act_325_1,account_service,account_325,DELETE_RECORD,user_1325,SUCCESS,2026-01-27T01:00:00+00:00,Primary account tombstoned
+act_325_2,search_service,search_doc_325,INDEX_RECORD,user_1325,PRESENT,2026-01-31T23:00:00+00:00,Exposed email in search index
+act_326_1,account_service,account_326,DELETE_RECORD,user_1326,SUCCESS,2026-01-28T02:00:00+00:00,Primary account tombstoned
+act_326_2,crm_sync_engine,sync_job_326,RECREATE_DATA,user_1326,ACTIVE,2026-02-02T00:00:00+00:00,CRM sync job active and auto-recreating user data
+act_327_1,account_service,account_327,DELETE_RECORD,user_1327,SUCCESS,2026-01-29T03:00:00+00:00,Account record deleted
+act_327_2,search_service,search_doc_327,DELETE_RECORD,user_1327,SUCCESS,2026-01-29T03:00:00+00:00,Search index cleared
+act_328_1,account_service,account_328,DELETE_RECORD,user_1328,SUCCESS,2026-01-30T04:00:00+00:00,Primary account tombstoned
+act_328_2,search_service,search_doc_328,INDEX_RECORD,user_1328,PRESENT,2026-02-04T02:00:00+00:00,Exposed email in search index
+act_329_1,account_service,account_329,DELETE_RECORD,user_1329,SUCCESS,2026-01-31T05:00:00+00:00,Primary account tombstoned
+act_329_2,search_service,search_doc_329,INDEX_RECORD,user_1329,PRESENT,2026-02-05T03:00:00+00:00,Exposed email in search index
+act_331_1,account_service,account_331,DELETE_RECORD,user_1331,SUCCESS,2026-01-03T07:00:00+00:00,Primary account tombstoned
+act_331_2,crm_sync_engine,sync_job_331,RECREATE_DATA,user_1331,ACTIVE,2026-01-08T05:00:00+00:00,CRM sync job active and auto-recreating user data
+act_332_1,account_service,account_332,DELETE_RECORD,user_1332,SUCCESS,2026-01-04T08:00:00+00:00,Primary account tombstoned
+act_332_2,backup_vault,backup_snapshot_332,RESTORE_PATH,user_1332,ACTIVE,2026-01-09T06:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_333_1,account_service,account_333,DELETE_RECORD,user_1333,SUCCESS,2026-01-05T09:00:00+00:00,Account record deleted
+act_333_2,search_service,search_doc_333,DELETE_RECORD,user_1333,SUCCESS,2026-01-05T09:00:00+00:00,Search index cleared
+act_334_1,account_service,account_334,DELETE_RECORD,user_1334,SUCCESS,2026-01-06T10:00:00+00:00,Primary account tombstoned
+act_334_2,search_service,search_doc_334,INDEX_RECORD,user_1334,PRESENT,2026-01-11T08:00:00+00:00,Exposed email in search index
+act_335_1,account_service,account_335,DELETE_RECORD,user_1335,SUCCESS,2026-01-07T11:00:00+00:00,Primary account tombstoned
+act_335_2,search_service,search_doc_335,INDEX_RECORD,user_1335,PRESENT,2026-01-12T09:00:00+00:00,Exposed email in search index
+act_336_1,account_service,account_336,DELETE_RECORD,user_1336,SUCCESS,2026-01-07T12:00:00+00:00,Account record deleted
+act_336_2,search_service,search_doc_336,DELETE_RECORD,user_1336,SUCCESS,2026-01-07T12:00:00+00:00,Search index cleared
+act_337_1,account_service,account_337,DELETE_RECORD,user_1337,SUCCESS,2026-01-08T13:00:00+00:00,Primary account tombstoned
+act_337_2,backup_vault,backup_snapshot_337,RESTORE_PATH,user_1337,ACTIVE,2026-01-13T11:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_338_1,account_service,account_338,DELETE_RECORD,user_1338,SUCCESS,2026-01-09T14:00:00+00:00,Primary account tombstoned
+act_338_2,search_service,search_doc_338,INDEX_RECORD,user_1338,PRESENT,2026-01-14T12:00:00+00:00,Exposed email in search index
+act_339_1,account_service,account_339,DELETE_RECORD,user_1339,SUCCESS,2026-01-10T15:00:00+00:00,Account record deleted
+act_339_2,search_service,search_doc_339,DELETE_RECORD,user_1339,SUCCESS,2026-01-10T15:00:00+00:00,Search index cleared
+act_341_1,account_service,account_341,DELETE_RECORD,user_1341,SUCCESS,2026-01-12T17:00:00+00:00,Primary account tombstoned
+act_341_2,crm_sync_engine,sync_job_341,RECREATE_DATA,user_1341,ACTIVE,2026-01-17T15:00:00+00:00,CRM sync job active and auto-recreating user data
+act_342_1,account_service,account_342,DELETE_RECORD,user_1342,SUCCESS,2026-01-13T18:00:00+00:00,Account record deleted
+act_342_2,search_service,search_doc_342,DELETE_RECORD,user_1342,SUCCESS,2026-01-13T18:00:00+00:00,Search index cleared
+act_343_1,account_service,account_343,DELETE_RECORD,user_1343,SUCCESS,2026-01-14T19:00:00+00:00,Primary account tombstoned
+act_343_2,search_service,search_doc_343,INDEX_RECORD,user_1343,PRESENT,2026-01-19T17:00:00+00:00,Exposed email in search index
+act_344_1,account_service,account_344,DELETE_RECORD,user_1344,SUCCESS,2026-01-15T20:00:00+00:00,Primary account tombstoned
+act_344_2,search_service,search_doc_344,INDEX_RECORD,user_1344,PRESENT,2026-01-20T18:00:00+00:00,Exposed email in search index
+act_345_1,account_service,account_345,DELETE_RECORD,user_1345,SUCCESS,2026-01-16T21:00:00+00:00,Account record deleted
+act_345_2,search_service,search_doc_345,DELETE_RECORD,user_1345,SUCCESS,2026-01-16T21:00:00+00:00,Search index cleared
+act_346_1,account_service,account_346,DELETE_RECORD,user_1346,SUCCESS,2026-01-17T22:00:00+00:00,Primary account tombstoned
+act_346_2,crm_sync_engine,sync_job_346,RECREATE_DATA,user_1346,ACTIVE,2026-01-22T20:00:00+00:00,CRM sync job active and auto-recreating user data
+act_347_1,account_service,account_347,DELETE_RECORD,user_1347,SUCCESS,2026-01-18T23:00:00+00:00,Primary account tombstoned
+act_347_2,backup_vault,backup_snapshot_347,RESTORE_PATH,user_1347,ACTIVE,2026-01-23T21:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_348_1,account_service,account_348,DELETE_RECORD,user_1348,SUCCESS,2026-01-20T00:00:00+00:00,Account record deleted
+act_348_2,search_service,search_doc_348,DELETE_RECORD,user_1348,SUCCESS,2026-01-20T00:00:00+00:00,Search index cleared
+act_349_1,account_service,account_349,DELETE_RECORD,user_1349,SUCCESS,2026-01-21T01:00:00+00:00,Primary account tombstoned
+act_349_2,search_service,search_doc_349,INDEX_RECORD,user_1349,PRESENT,2026-01-25T23:00:00+00:00,Exposed email in search index
+act_351_1,account_service,account_351,DELETE_RECORD,user_1351,SUCCESS,2026-01-23T03:00:00+00:00,Account record deleted
+act_351_2,search_service,search_doc_351,DELETE_RECORD,user_1351,SUCCESS,2026-01-23T03:00:00+00:00,Search index cleared
+act_352_1,account_service,account_352,DELETE_RECORD,user_1352,SUCCESS,2026-01-24T04:00:00+00:00,Primary account tombstoned
+act_352_2,backup_vault,backup_snapshot_352,RESTORE_PATH,user_1352,ACTIVE,2026-01-29T02:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_353_1,account_service,account_353,DELETE_RECORD,user_1353,SUCCESS,2026-01-25T05:00:00+00:00,Primary account tombstoned
+act_353_2,search_service,search_doc_353,INDEX_RECORD,user_1353,PRESENT,2026-01-30T03:00:00+00:00,Exposed email in search index
+act_354_1,account_service,account_354,DELETE_RECORD,user_1354,SUCCESS,2026-01-26T06:00:00+00:00,Account record deleted
+act_354_2,search_service,search_doc_354,DELETE_RECORD,user_1354,SUCCESS,2026-01-26T06:00:00+00:00,Search index cleared
+act_355_1,account_service,account_355,DELETE_RECORD,user_1355,SUCCESS,2026-01-27T07:00:00+00:00,Primary account tombstoned
+act_355_2,search_service,search_doc_355,INDEX_RECORD,user_1355,PRESENT,2026-02-01T05:00:00+00:00,Exposed email in search index
+act_356_1,account_service,account_356,DELETE_RECORD,user_1356,SUCCESS,2026-01-28T08:00:00+00:00,Primary account tombstoned
+act_356_2,crm_sync_engine,sync_job_356,RECREATE_DATA,user_1356,ACTIVE,2026-02-02T06:00:00+00:00,CRM sync job active and auto-recreating user data
+act_357_1,account_service,account_357,DELETE_RECORD,user_1357,SUCCESS,2026-01-29T09:00:00+00:00,Account record deleted
+act_357_2,search_service,search_doc_357,DELETE_RECORD,user_1357,SUCCESS,2026-01-29T09:00:00+00:00,Search index cleared
+act_358_1,account_service,account_358,DELETE_RECORD,user_1358,SUCCESS,2026-01-30T10:00:00+00:00,Primary account tombstoned
+act_358_2,search_service,search_doc_358,INDEX_RECORD,user_1358,PRESENT,2026-02-04T08:00:00+00:00,Exposed email in search index
+act_359_1,account_service,account_359,DELETE_RECORD,user_1359,SUCCESS,2026-01-31T11:00:00+00:00,Primary account tombstoned
+act_359_2,search_service,search_doc_359,INDEX_RECORD,user_1359,PRESENT,2026-02-05T09:00:00+00:00,Exposed email in search index
+act_361_1,account_service,account_361,DELETE_RECORD,user_1361,SUCCESS,2026-01-02T13:00:00+00:00,Primary account tombstoned
+act_361_2,crm_sync_engine,sync_job_361,RECREATE_DATA,user_1361,ACTIVE,2026-01-07T11:00:00+00:00,CRM sync job active and auto-recreating user data
+act_362_1,account_service,account_362,DELETE_RECORD,user_1362,SUCCESS,2026-01-03T14:00:00+00:00,Primary account tombstoned
+act_362_2,backup_vault,backup_snapshot_362,RESTORE_PATH,user_1362,ACTIVE,2026-01-08T12:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_363_1,account_service,account_363,DELETE_RECORD,user_1363,SUCCESS,2026-01-04T15:00:00+00:00,Account record deleted
+act_363_2,search_service,search_doc_363,DELETE_RECORD,user_1363,SUCCESS,2026-01-04T15:00:00+00:00,Search index cleared
+act_364_1,account_service,account_364,DELETE_RECORD,user_1364,SUCCESS,2026-01-05T16:00:00+00:00,Primary account tombstoned
+act_364_2,search_service,search_doc_364,INDEX_RECORD,user_1364,PRESENT,2026-01-10T14:00:00+00:00,Exposed email in search index
+act_365_1,account_service,account_365,DELETE_RECORD,user_1365,SUCCESS,2026-01-06T17:00:00+00:00,Primary account tombstoned
+act_365_2,search_service,search_doc_365,INDEX_RECORD,user_1365,PRESENT,2026-01-11T15:00:00+00:00,Exposed email in search index
+act_366_1,account_service,account_366,DELETE_RECORD,user_1366,SUCCESS,2026-01-07T18:00:00+00:00,Account record deleted
+act_366_2,search_service,search_doc_366,DELETE_RECORD,user_1366,SUCCESS,2026-01-07T18:00:00+00:00,Search index cleared
+act_367_1,account_service,account_367,DELETE_RECORD,user_1367,SUCCESS,2026-01-08T19:00:00+00:00,Primary account tombstoned
+act_367_2,backup_vault,backup_snapshot_367,RESTORE_PATH,user_1367,ACTIVE,2026-01-13T17:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_368_1,account_service,account_368,DELETE_RECORD,user_1368,SUCCESS,2026-01-09T20:00:00+00:00,Primary account tombstoned
+act_368_2,search_service,search_doc_368,INDEX_RECORD,user_1368,PRESENT,2026-01-14T18:00:00+00:00,Exposed email in search index
+act_369_1,account_service,account_369,DELETE_RECORD,user_1369,SUCCESS,2026-01-10T21:00:00+00:00,Account record deleted
+act_369_2,search_service,search_doc_369,DELETE_RECORD,user_1369,SUCCESS,2026-01-10T21:00:00+00:00,Search index cleared
+act_371_1,account_service,account_371,DELETE_RECORD,user_1371,SUCCESS,2026-01-12T23:00:00+00:00,Primary account tombstoned
+act_371_2,crm_sync_engine,sync_job_371,RECREATE_DATA,user_1371,ACTIVE,2026-01-17T21:00:00+00:00,CRM sync job active and auto-recreating user data
+act_372_1,account_service,account_372,DELETE_RECORD,user_1372,SUCCESS,2026-01-14T00:00:00+00:00,Account record deleted
+act_372_2,search_service,search_doc_372,DELETE_RECORD,user_1372,SUCCESS,2026-01-14T00:00:00+00:00,Search index cleared
+act_373_1,account_service,account_373,DELETE_RECORD,user_1373,SUCCESS,2026-01-15T01:00:00+00:00,Primary account tombstoned
+act_373_2,search_service,search_doc_373,INDEX_RECORD,user_1373,PRESENT,2026-01-19T23:00:00+00:00,Exposed email in search index
+act_374_1,account_service,account_374,DELETE_RECORD,user_1374,SUCCESS,2026-01-16T02:00:00+00:00,Primary account tombstoned
+act_374_2,search_service,search_doc_374,INDEX_RECORD,user_1374,PRESENT,2026-01-21T00:00:00+00:00,Exposed email in search index
+act_375_1,account_service,account_375,DELETE_RECORD,user_1375,SUCCESS,2026-01-17T03:00:00+00:00,Account record deleted
+act_375_2,search_service,search_doc_375,DELETE_RECORD,user_1375,SUCCESS,2026-01-17T03:00:00+00:00,Search index cleared
+act_376_1,account_service,account_376,DELETE_RECORD,user_1376,SUCCESS,2026-01-18T04:00:00+00:00,Primary account tombstoned
+act_376_2,crm_sync_engine,sync_job_376,RECREATE_DATA,user_1376,ACTIVE,2026-01-23T02:00:00+00:00,CRM sync job active and auto-recreating user data
+act_377_1,account_service,account_377,DELETE_RECORD,user_1377,SUCCESS,2026-01-19T05:00:00+00:00,Primary account tombstoned
+act_377_2,backup_vault,backup_snapshot_377,RESTORE_PATH,user_1377,ACTIVE,2026-01-24T03:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_378_1,account_service,account_378,DELETE_RECORD,user_1378,SUCCESS,2026-01-20T06:00:00+00:00,Account record deleted
+act_378_2,search_service,search_doc_378,DELETE_RECORD,user_1378,SUCCESS,2026-01-20T06:00:00+00:00,Search index cleared
+act_379_1,account_service,account_379,DELETE_RECORD,user_1379,SUCCESS,2026-01-21T07:00:00+00:00,Primary account tombstoned
+act_379_2,search_service,search_doc_379,INDEX_RECORD,user_1379,PRESENT,2026-01-26T05:00:00+00:00,Exposed email in search index
+act_381_1,account_service,account_381,DELETE_RECORD,user_1381,SUCCESS,2026-01-23T09:00:00+00:00,Account record deleted
+act_381_2,search_service,search_doc_381,DELETE_RECORD,user_1381,SUCCESS,2026-01-23T09:00:00+00:00,Search index cleared
+act_382_1,account_service,account_382,DELETE_RECORD,user_1382,SUCCESS,2026-01-24T10:00:00+00:00,Primary account tombstoned
+act_382_2,backup_vault,backup_snapshot_382,RESTORE_PATH,user_1382,ACTIVE,2026-01-29T08:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_383_1,account_service,account_383,DELETE_RECORD,user_1383,SUCCESS,2026-01-25T11:00:00+00:00,Primary account tombstoned
+act_383_2,search_service,search_doc_383,INDEX_RECORD,user_1383,PRESENT,2026-01-30T09:00:00+00:00,Exposed email in search index
+act_384_1,account_service,account_384,DELETE_RECORD,user_1384,SUCCESS,2026-01-25T12:00:00+00:00,Account record deleted
+act_384_2,search_service,search_doc_384,DELETE_RECORD,user_1384,SUCCESS,2026-01-25T12:00:00+00:00,Search index cleared
+act_385_1,account_service,account_385,DELETE_RECORD,user_1385,SUCCESS,2026-01-26T13:00:00+00:00,Primary account tombstoned
+act_385_2,search_service,search_doc_385,INDEX_RECORD,user_1385,PRESENT,2026-01-31T11:00:00+00:00,Exposed email in search index
+act_386_1,account_service,account_386,DELETE_RECORD,user_1386,SUCCESS,2026-01-27T14:00:00+00:00,Primary account tombstoned
+act_386_2,crm_sync_engine,sync_job_386,RECREATE_DATA,user_1386,ACTIVE,2026-02-01T12:00:00+00:00,CRM sync job active and auto-recreating user data
+act_387_1,account_service,account_387,DELETE_RECORD,user_1387,SUCCESS,2026-01-28T15:00:00+00:00,Account record deleted
+act_387_2,search_service,search_doc_387,DELETE_RECORD,user_1387,SUCCESS,2026-01-28T15:00:00+00:00,Search index cleared
+act_388_1,account_service,account_388,DELETE_RECORD,user_1388,SUCCESS,2026-01-29T16:00:00+00:00,Primary account tombstoned
+act_388_2,search_service,search_doc_388,INDEX_RECORD,user_1388,PRESENT,2026-02-03T14:00:00+00:00,Exposed email in search index
+act_389_1,account_service,account_389,DELETE_RECORD,user_1389,SUCCESS,2026-01-30T17:00:00+00:00,Primary account tombstoned
+act_389_2,search_service,search_doc_389,INDEX_RECORD,user_1389,PRESENT,2026-02-04T15:00:00+00:00,Exposed email in search index
+act_391_1,account_service,account_391,DELETE_RECORD,user_1391,SUCCESS,2026-01-02T19:00:00+00:00,Primary account tombstoned
+act_391_2,crm_sync_engine,sync_job_391,RECREATE_DATA,user_1391,ACTIVE,2026-01-07T17:00:00+00:00,CRM sync job active and auto-recreating user data
+act_392_1,account_service,account_392,DELETE_RECORD,user_1392,SUCCESS,2026-01-03T20:00:00+00:00,Primary account tombstoned
+act_392_2,backup_vault,backup_snapshot_392,RESTORE_PATH,user_1392,ACTIVE,2026-01-08T18:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_393_1,account_service,account_393,DELETE_RECORD,user_1393,SUCCESS,2026-01-04T21:00:00+00:00,Account record deleted
+act_393_2,search_service,search_doc_393,DELETE_RECORD,user_1393,SUCCESS,2026-01-04T21:00:00+00:00,Search index cleared
+act_394_1,account_service,account_394,DELETE_RECORD,user_1394,SUCCESS,2026-01-05T22:00:00+00:00,Primary account tombstoned
+act_394_2,search_service,search_doc_394,INDEX_RECORD,user_1394,PRESENT,2026-01-10T20:00:00+00:00,Exposed email in search index
+act_395_1,account_service,account_395,DELETE_RECORD,user_1395,SUCCESS,2026-01-06T23:00:00+00:00,Primary account tombstoned
+act_395_2,search_service,search_doc_395,INDEX_RECORD,user_1395,PRESENT,2026-01-11T21:00:00+00:00,Exposed email in search index
+act_396_1,account_service,account_396,DELETE_RECORD,user_1396,SUCCESS,2026-01-08T00:00:00+00:00,Account record deleted
+act_396_2,search_service,search_doc_396,DELETE_RECORD,user_1396,SUCCESS,2026-01-08T00:00:00+00:00,Search index cleared
+act_397_1,account_service,account_397,DELETE_RECORD,user_1397,SUCCESS,2026-01-09T01:00:00+00:00,Primary account tombstoned
+act_397_2,backup_vault,backup_snapshot_397,RESTORE_PATH,user_1397,ACTIVE,2026-01-13T23:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_398_1,account_service,account_398,DELETE_RECORD,user_1398,SUCCESS,2026-01-10T02:00:00+00:00,Primary account tombstoned
+act_398_2,search_service,search_doc_398,INDEX_RECORD,user_1398,PRESENT,2026-01-15T00:00:00+00:00,Exposed email in search index
+act_399_1,account_service,account_399,DELETE_RECORD,user_1399,SUCCESS,2026-01-11T03:00:00+00:00,Account record deleted
+act_399_2,search_service,search_doc_399,DELETE_RECORD,user_1399,SUCCESS,2026-01-11T03:00:00+00:00,Search index cleared
+act_401_1,account_service,account_401,DELETE_RECORD,user_1401,SUCCESS,2026-01-13T05:00:00+00:00,Primary account tombstoned
+act_401_2,crm_sync_engine,sync_job_401,RECREATE_DATA,user_1401,ACTIVE,2026-01-18T03:00:00+00:00,CRM sync job active and auto-recreating user data
+act_402_1,account_service,account_402,DELETE_RECORD,user_1402,SUCCESS,2026-01-14T06:00:00+00:00,Account record deleted
+act_402_2,search_service,search_doc_402,DELETE_RECORD,user_1402,SUCCESS,2026-01-14T06:00:00+00:00,Search index cleared
+act_403_1,account_service,account_403,DELETE_RECORD,user_1403,SUCCESS,2026-01-15T07:00:00+00:00,Primary account tombstoned
+act_403_2,search_service,search_doc_403,INDEX_RECORD,user_1403,PRESENT,2026-01-20T05:00:00+00:00,Exposed email in search index
+act_404_1,account_service,account_404,DELETE_RECORD,user_1404,SUCCESS,2026-01-16T08:00:00+00:00,Primary account tombstoned
+act_404_2,search_service,search_doc_404,INDEX_RECORD,user_1404,PRESENT,2026-01-21T06:00:00+00:00,Exposed email in search index
+act_405_1,account_service,account_405,DELETE_RECORD,user_1405,SUCCESS,2026-01-17T09:00:00+00:00,Account record deleted
+act_405_2,search_service,search_doc_405,DELETE_RECORD,user_1405,SUCCESS,2026-01-17T09:00:00+00:00,Search index cleared
+act_406_1,account_service,account_406,DELETE_RECORD,user_1406,SUCCESS,2026-01-18T10:00:00+00:00,Primary account tombstoned
+act_406_2,crm_sync_engine,sync_job_406,RECREATE_DATA,user_1406,ACTIVE,2026-01-23T08:00:00+00:00,CRM sync job active and auto-recreating user data
+act_407_1,account_service,account_407,DELETE_RECORD,user_1407,SUCCESS,2026-01-19T11:00:00+00:00,Primary account tombstoned
+act_407_2,backup_vault,backup_snapshot_407,RESTORE_PATH,user_1407,ACTIVE,2026-01-24T09:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_408_1,account_service,account_408,DELETE_RECORD,user_1408,SUCCESS,2026-01-19T12:00:00+00:00,Account record deleted
+act_408_2,search_service,search_doc_408,DELETE_RECORD,user_1408,SUCCESS,2026-01-19T12:00:00+00:00,Search index cleared
+act_409_1,account_service,account_409,DELETE_RECORD,user_1409,SUCCESS,2026-01-20T13:00:00+00:00,Primary account tombstoned
+act_409_2,search_service,search_doc_409,INDEX_RECORD,user_1409,PRESENT,2026-01-25T11:00:00+00:00,Exposed email in search index
+act_411_1,account_service,account_411,DELETE_RECORD,user_1411,SUCCESS,2026-01-22T15:00:00+00:00,Account record deleted
+act_411_2,search_service,search_doc_411,DELETE_RECORD,user_1411,SUCCESS,2026-01-22T15:00:00+00:00,Search index cleared
+act_412_1,account_service,account_412,DELETE_RECORD,user_1412,SUCCESS,2026-01-23T16:00:00+00:00,Primary account tombstoned
+act_412_2,backup_vault,backup_snapshot_412,RESTORE_PATH,user_1412,ACTIVE,2026-01-28T14:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_413_1,account_service,account_413,DELETE_RECORD,user_1413,SUCCESS,2026-01-24T17:00:00+00:00,Primary account tombstoned
+act_413_2,search_service,search_doc_413,INDEX_RECORD,user_1413,PRESENT,2026-01-29T15:00:00+00:00,Exposed email in search index
+act_414_1,account_service,account_414,DELETE_RECORD,user_1414,SUCCESS,2026-01-25T18:00:00+00:00,Account record deleted
+act_414_2,search_service,search_doc_414,DELETE_RECORD,user_1414,SUCCESS,2026-01-25T18:00:00+00:00,Search index cleared
+act_415_1,account_service,account_415,DELETE_RECORD,user_1415,SUCCESS,2026-01-26T19:00:00+00:00,Primary account tombstoned
+act_415_2,search_service,search_doc_415,INDEX_RECORD,user_1415,PRESENT,2026-01-31T17:00:00+00:00,Exposed email in search index
+act_416_1,account_service,account_416,DELETE_RECORD,user_1416,SUCCESS,2026-01-27T20:00:00+00:00,Primary account tombstoned
+act_416_2,crm_sync_engine,sync_job_416,RECREATE_DATA,user_1416,ACTIVE,2026-02-01T18:00:00+00:00,CRM sync job active and auto-recreating user data
+act_417_1,account_service,account_417,DELETE_RECORD,user_1417,SUCCESS,2026-01-28T21:00:00+00:00,Account record deleted
+act_417_2,search_service,search_doc_417,DELETE_RECORD,user_1417,SUCCESS,2026-01-28T21:00:00+00:00,Search index cleared
+act_418_1,account_service,account_418,DELETE_RECORD,user_1418,SUCCESS,2026-01-29T22:00:00+00:00,Primary account tombstoned
+act_418_2,search_service,search_doc_418,INDEX_RECORD,user_1418,PRESENT,2026-02-03T20:00:00+00:00,Exposed email in search index
+act_419_1,account_service,account_419,DELETE_RECORD,user_1419,SUCCESS,2026-01-30T23:00:00+00:00,Primary account tombstoned
+act_419_2,search_service,search_doc_419,INDEX_RECORD,user_1419,PRESENT,2026-02-04T21:00:00+00:00,Exposed email in search index
+act_421_1,account_service,account_421,DELETE_RECORD,user_1421,SUCCESS,2026-01-03T01:00:00+00:00,Primary account tombstoned
+act_421_2,crm_sync_engine,sync_job_421,RECREATE_DATA,user_1421,ACTIVE,2026-01-07T23:00:00+00:00,CRM sync job active and auto-recreating user data
+act_422_1,account_service,account_422,DELETE_RECORD,user_1422,SUCCESS,2026-01-04T02:00:00+00:00,Primary account tombstoned
+act_422_2,backup_vault,backup_snapshot_422,RESTORE_PATH,user_1422,ACTIVE,2026-01-09T00:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_423_1,account_service,account_423,DELETE_RECORD,user_1423,SUCCESS,2026-01-05T03:00:00+00:00,Account record deleted
+act_423_2,search_service,search_doc_423,DELETE_RECORD,user_1423,SUCCESS,2026-01-05T03:00:00+00:00,Search index cleared
+act_424_1,account_service,account_424,DELETE_RECORD,user_1424,SUCCESS,2026-01-06T04:00:00+00:00,Primary account tombstoned
+act_424_2,search_service,search_doc_424,INDEX_RECORD,user_1424,PRESENT,2026-01-11T02:00:00+00:00,Exposed email in search index
+act_425_1,account_service,account_425,DELETE_RECORD,user_1425,SUCCESS,2026-01-07T05:00:00+00:00,Primary account tombstoned
+act_425_2,search_service,search_doc_425,INDEX_RECORD,user_1425,PRESENT,2026-01-12T03:00:00+00:00,Exposed email in search index
+act_426_1,account_service,account_426,DELETE_RECORD,user_1426,SUCCESS,2026-01-08T06:00:00+00:00,Account record deleted
+act_426_2,search_service,search_doc_426,DELETE_RECORD,user_1426,SUCCESS,2026-01-08T06:00:00+00:00,Search index cleared
+act_427_1,account_service,account_427,DELETE_RECORD,user_1427,SUCCESS,2026-01-09T07:00:00+00:00,Primary account tombstoned
+act_427_2,backup_vault,backup_snapshot_427,RESTORE_PATH,user_1427,ACTIVE,2026-01-14T05:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_428_1,account_service,account_428,DELETE_RECORD,user_1428,SUCCESS,2026-01-10T08:00:00+00:00,Primary account tombstoned
+act_428_2,search_service,search_doc_428,INDEX_RECORD,user_1428,PRESENT,2026-01-15T06:00:00+00:00,Exposed email in search index
+act_429_1,account_service,account_429,DELETE_RECORD,user_1429,SUCCESS,2026-01-11T09:00:00+00:00,Account record deleted
+act_429_2,search_service,search_doc_429,DELETE_RECORD,user_1429,SUCCESS,2026-01-11T09:00:00+00:00,Search index cleared
+act_431_1,account_service,account_431,DELETE_RECORD,user_1431,SUCCESS,2026-01-13T11:00:00+00:00,Primary account tombstoned
+act_431_2,crm_sync_engine,sync_job_431,RECREATE_DATA,user_1431,ACTIVE,2026-01-18T09:00:00+00:00,CRM sync job active and auto-recreating user data
+act_432_1,account_service,account_432,DELETE_RECORD,user_1432,SUCCESS,2026-01-13T12:00:00+00:00,Account record deleted
+act_432_2,search_service,search_doc_432,DELETE_RECORD,user_1432,SUCCESS,2026-01-13T12:00:00+00:00,Search index cleared
+act_433_1,account_service,account_433,DELETE_RECORD,user_1433,SUCCESS,2026-01-14T13:00:00+00:00,Primary account tombstoned
+act_433_2,search_service,search_doc_433,INDEX_RECORD,user_1433,PRESENT,2026-01-19T11:00:00+00:00,Exposed email in search index
+act_434_1,account_service,account_434,DELETE_RECORD,user_1434,SUCCESS,2026-01-15T14:00:00+00:00,Primary account tombstoned
+act_434_2,search_service,search_doc_434,INDEX_RECORD,user_1434,PRESENT,2026-01-20T12:00:00+00:00,Exposed email in search index
+act_435_1,account_service,account_435,DELETE_RECORD,user_1435,SUCCESS,2026-01-16T15:00:00+00:00,Account record deleted
+act_435_2,search_service,search_doc_435,DELETE_RECORD,user_1435,SUCCESS,2026-01-16T15:00:00+00:00,Search index cleared
+act_436_1,account_service,account_436,DELETE_RECORD,user_1436,SUCCESS,2026-01-17T16:00:00+00:00,Primary account tombstoned
+act_436_2,crm_sync_engine,sync_job_436,RECREATE_DATA,user_1436,ACTIVE,2026-01-22T14:00:00+00:00,CRM sync job active and auto-recreating user data
+act_437_1,account_service,account_437,DELETE_RECORD,user_1437,SUCCESS,2026-01-18T17:00:00+00:00,Primary account tombstoned
+act_437_2,backup_vault,backup_snapshot_437,RESTORE_PATH,user_1437,ACTIVE,2026-01-23T15:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_438_1,account_service,account_438,DELETE_RECORD,user_1438,SUCCESS,2026-01-19T18:00:00+00:00,Account record deleted
+act_438_2,search_service,search_doc_438,DELETE_RECORD,user_1438,SUCCESS,2026-01-19T18:00:00+00:00,Search index cleared
+act_439_1,account_service,account_439,DELETE_RECORD,user_1439,SUCCESS,2026-01-20T19:00:00+00:00,Primary account tombstoned
+act_439_2,search_service,search_doc_439,INDEX_RECORD,user_1439,PRESENT,2026-01-25T17:00:00+00:00,Exposed email in search index
+act_441_1,account_service,account_441,DELETE_RECORD,user_1441,SUCCESS,2026-01-22T21:00:00+00:00,Account record deleted
+act_441_2,search_service,search_doc_441,DELETE_RECORD,user_1441,SUCCESS,2026-01-22T21:00:00+00:00,Search index cleared
+act_442_1,account_service,account_442,DELETE_RECORD,user_1442,SUCCESS,2026-01-23T22:00:00+00:00,Primary account tombstoned
+act_442_2,backup_vault,backup_snapshot_442,RESTORE_PATH,user_1442,ACTIVE,2026-01-28T20:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_443_1,account_service,account_443,DELETE_RECORD,user_1443,SUCCESS,2026-01-24T23:00:00+00:00,Primary account tombstoned
+act_443_2,search_service,search_doc_443,INDEX_RECORD,user_1443,PRESENT,2026-01-29T21:00:00+00:00,Exposed email in search index
+act_444_1,account_service,account_444,DELETE_RECORD,user_1444,SUCCESS,2026-01-26T00:00:00+00:00,Account record deleted
+act_444_2,search_service,search_doc_444,DELETE_RECORD,user_1444,SUCCESS,2026-01-26T00:00:00+00:00,Search index cleared
+act_445_1,account_service,account_445,DELETE_RECORD,user_1445,SUCCESS,2026-01-27T01:00:00+00:00,Primary account tombstoned
+act_445_2,search_service,search_doc_445,INDEX_RECORD,user_1445,PRESENT,2026-01-31T23:00:00+00:00,Exposed email in search index
+act_446_1,account_service,account_446,DELETE_RECORD,user_1446,SUCCESS,2026-01-28T02:00:00+00:00,Primary account tombstoned
+act_446_2,crm_sync_engine,sync_job_446,RECREATE_DATA,user_1446,ACTIVE,2026-02-02T00:00:00+00:00,CRM sync job active and auto-recreating user data
+act_447_1,account_service,account_447,DELETE_RECORD,user_1447,SUCCESS,2026-01-29T03:00:00+00:00,Account record deleted
+act_447_2,search_service,search_doc_447,DELETE_RECORD,user_1447,SUCCESS,2026-01-29T03:00:00+00:00,Search index cleared
+act_448_1,account_service,account_448,DELETE_RECORD,user_1448,SUCCESS,2026-01-30T04:00:00+00:00,Primary account tombstoned
+act_448_2,search_service,search_doc_448,INDEX_RECORD,user_1448,PRESENT,2026-02-04T02:00:00+00:00,Exposed email in search index
+act_449_1,account_service,account_449,DELETE_RECORD,user_1449,SUCCESS,2026-01-31T05:00:00+00:00,Primary account tombstoned
+act_449_2,search_service,search_doc_449,INDEX_RECORD,user_1449,PRESENT,2026-02-05T03:00:00+00:00,Exposed email in search index
+act_451_1,account_service,account_451,DELETE_RECORD,user_1451,SUCCESS,2026-01-03T07:00:00+00:00,Primary account tombstoned
+act_451_2,crm_sync_engine,sync_job_451,RECREATE_DATA,user_1451,ACTIVE,2026-01-08T05:00:00+00:00,CRM sync job active and auto-recreating user data
+act_452_1,account_service,account_452,DELETE_RECORD,user_1452,SUCCESS,2026-01-04T08:00:00+00:00,Primary account tombstoned
+act_452_2,backup_vault,backup_snapshot_452,RESTORE_PATH,user_1452,ACTIVE,2026-01-09T06:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_453_1,account_service,account_453,DELETE_RECORD,user_1453,SUCCESS,2026-01-05T09:00:00+00:00,Account record deleted
+act_453_2,search_service,search_doc_453,DELETE_RECORD,user_1453,SUCCESS,2026-01-05T09:00:00+00:00,Search index cleared
+act_454_1,account_service,account_454,DELETE_RECORD,user_1454,SUCCESS,2026-01-06T10:00:00+00:00,Primary account tombstoned
+act_454_2,search_service,search_doc_454,INDEX_RECORD,user_1454,PRESENT,2026-01-11T08:00:00+00:00,Exposed email in search index
+act_455_1,account_service,account_455,DELETE_RECORD,user_1455,SUCCESS,2026-01-07T11:00:00+00:00,Primary account tombstoned
+act_455_2,search_service,search_doc_455,INDEX_RECORD,user_1455,PRESENT,2026-01-12T09:00:00+00:00,Exposed email in search index
+act_456_1,account_service,account_456,DELETE_RECORD,user_1456,SUCCESS,2026-01-07T12:00:00+00:00,Account record deleted
+act_456_2,search_service,search_doc_456,DELETE_RECORD,user_1456,SUCCESS,2026-01-07T12:00:00+00:00,Search index cleared
+act_457_1,account_service,account_457,DELETE_RECORD,user_1457,SUCCESS,2026-01-08T13:00:00+00:00,Primary account tombstoned
+act_457_2,backup_vault,backup_snapshot_457,RESTORE_PATH,user_1457,ACTIVE,2026-01-13T11:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_458_1,account_service,account_458,DELETE_RECORD,user_1458,SUCCESS,2026-01-09T14:00:00+00:00,Primary account tombstoned
+act_458_2,search_service,search_doc_458,INDEX_RECORD,user_1458,PRESENT,2026-01-14T12:00:00+00:00,Exposed email in search index
+act_459_1,account_service,account_459,DELETE_RECORD,user_1459,SUCCESS,2026-01-10T15:00:00+00:00,Account record deleted
+act_459_2,search_service,search_doc_459,DELETE_RECORD,user_1459,SUCCESS,2026-01-10T15:00:00+00:00,Search index cleared
+act_461_1,account_service,account_461,DELETE_RECORD,user_1461,SUCCESS,2026-01-12T17:00:00+00:00,Primary account tombstoned
+act_461_2,crm_sync_engine,sync_job_461,RECREATE_DATA,user_1461,ACTIVE,2026-01-17T15:00:00+00:00,CRM sync job active and auto-recreating user data
+act_462_1,account_service,account_462,DELETE_RECORD,user_1462,SUCCESS,2026-01-13T18:00:00+00:00,Account record deleted
+act_462_2,search_service,search_doc_462,DELETE_RECORD,user_1462,SUCCESS,2026-01-13T18:00:00+00:00,Search index cleared
+act_463_1,account_service,account_463,DELETE_RECORD,user_1463,SUCCESS,2026-01-14T19:00:00+00:00,Primary account tombstoned
+act_463_2,search_service,search_doc_463,INDEX_RECORD,user_1463,PRESENT,2026-01-19T17:00:00+00:00,Exposed email in search index
+act_464_1,account_service,account_464,DELETE_RECORD,user_1464,SUCCESS,2026-01-15T20:00:00+00:00,Primary account tombstoned
+act_464_2,search_service,search_doc_464,INDEX_RECORD,user_1464,PRESENT,2026-01-20T18:00:00+00:00,Exposed email in search index
+act_465_1,account_service,account_465,DELETE_RECORD,user_1465,SUCCESS,2026-01-16T21:00:00+00:00,Account record deleted
+act_465_2,search_service,search_doc_465,DELETE_RECORD,user_1465,SUCCESS,2026-01-16T21:00:00+00:00,Search index cleared
+act_466_1,account_service,account_466,DELETE_RECORD,user_1466,SUCCESS,2026-01-17T22:00:00+00:00,Primary account tombstoned
+act_466_2,crm_sync_engine,sync_job_466,RECREATE_DATA,user_1466,ACTIVE,2026-01-22T20:00:00+00:00,CRM sync job active and auto-recreating user data
+act_467_1,account_service,account_467,DELETE_RECORD,user_1467,SUCCESS,2026-01-18T23:00:00+00:00,Primary account tombstoned
+act_467_2,backup_vault,backup_snapshot_467,RESTORE_PATH,user_1467,ACTIVE,2026-01-23T21:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_468_1,account_service,account_468,DELETE_RECORD,user_1468,SUCCESS,2026-01-20T00:00:00+00:00,Account record deleted
+act_468_2,search_service,search_doc_468,DELETE_RECORD,user_1468,SUCCESS,2026-01-20T00:00:00+00:00,Search index cleared
+act_469_1,account_service,account_469,DELETE_RECORD,user_1469,SUCCESS,2026-01-21T01:00:00+00:00,Primary account tombstoned
+act_469_2,search_service,search_doc_469,INDEX_RECORD,user_1469,PRESENT,2026-01-25T23:00:00+00:00,Exposed email in search index
+act_471_1,account_service,account_471,DELETE_RECORD,user_1471,SUCCESS,2026-01-23T03:00:00+00:00,Account record deleted
+act_471_2,search_service,search_doc_471,DELETE_RECORD,user_1471,SUCCESS,2026-01-23T03:00:00+00:00,Search index cleared
+act_472_1,account_service,account_472,DELETE_RECORD,user_1472,SUCCESS,2026-01-24T04:00:00+00:00,Primary account tombstoned
+act_472_2,backup_vault,backup_snapshot_472,RESTORE_PATH,user_1472,ACTIVE,2026-01-29T02:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_473_1,account_service,account_473,DELETE_RECORD,user_1473,SUCCESS,2026-01-25T05:00:00+00:00,Primary account tombstoned
+act_473_2,search_service,search_doc_473,INDEX_RECORD,user_1473,PRESENT,2026-01-30T03:00:00+00:00,Exposed email in search index
+act_474_1,account_service,account_474,DELETE_RECORD,user_1474,SUCCESS,2026-01-26T06:00:00+00:00,Account record deleted
+act_474_2,search_service,search_doc_474,DELETE_RECORD,user_1474,SUCCESS,2026-01-26T06:00:00+00:00,Search index cleared
+act_475_1,account_service,account_475,DELETE_RECORD,user_1475,SUCCESS,2026-01-27T07:00:00+00:00,Primary account tombstoned
+act_475_2,search_service,search_doc_475,INDEX_RECORD,user_1475,PRESENT,2026-02-01T05:00:00+00:00,Exposed email in search index
+act_476_1,account_service,account_476,DELETE_RECORD,user_1476,SUCCESS,2026-01-28T08:00:00+00:00,Primary account tombstoned
+act_476_2,crm_sync_engine,sync_job_476,RECREATE_DATA,user_1476,ACTIVE,2026-02-02T06:00:00+00:00,CRM sync job active and auto-recreating user data
+act_477_1,account_service,account_477,DELETE_RECORD,user_1477,SUCCESS,2026-01-29T09:00:00+00:00,Account record deleted
+act_477_2,search_service,search_doc_477,DELETE_RECORD,user_1477,SUCCESS,2026-01-29T09:00:00+00:00,Search index cleared
+act_478_1,account_service,account_478,DELETE_RECORD,user_1478,SUCCESS,2026-01-30T10:00:00+00:00,Primary account tombstoned
+act_478_2,search_service,search_doc_478,INDEX_RECORD,user_1478,PRESENT,2026-02-04T08:00:00+00:00,Exposed email in search index
+act_479_1,account_service,account_479,DELETE_RECORD,user_1479,SUCCESS,2026-01-31T11:00:00+00:00,Primary account tombstoned
+act_479_2,search_service,search_doc_479,INDEX_RECORD,user_1479,PRESENT,2026-02-05T09:00:00+00:00,Exposed email in search index
+act_481_1,account_service,account_481,DELETE_RECORD,user_1481,SUCCESS,2026-01-02T13:00:00+00:00,Primary account tombstoned
+act_481_2,crm_sync_engine,sync_job_481,RECREATE_DATA,user_1481,ACTIVE,2026-01-07T11:00:00+00:00,CRM sync job active and auto-recreating user data
+act_482_1,account_service,account_482,DELETE_RECORD,user_1482,SUCCESS,2026-01-03T14:00:00+00:00,Primary account tombstoned
+act_482_2,backup_vault,backup_snapshot_482,RESTORE_PATH,user_1482,ACTIVE,2026-01-08T12:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_483_1,account_service,account_483,DELETE_RECORD,user_1483,SUCCESS,2026-01-04T15:00:00+00:00,Account record deleted
+act_483_2,search_service,search_doc_483,DELETE_RECORD,user_1483,SUCCESS,2026-01-04T15:00:00+00:00,Search index cleared
+act_484_1,account_service,account_484,DELETE_RECORD,user_1484,SUCCESS,2026-01-05T16:00:00+00:00,Primary account tombstoned
+act_484_2,search_service,search_doc_484,INDEX_RECORD,user_1484,PRESENT,2026-01-10T14:00:00+00:00,Exposed email in search index
+act_485_1,account_service,account_485,DELETE_RECORD,user_1485,SUCCESS,2026-01-06T17:00:00+00:00,Primary account tombstoned
+act_485_2,search_service,search_doc_485,INDEX_RECORD,user_1485,PRESENT,2026-01-11T15:00:00+00:00,Exposed email in search index
+act_486_1,account_service,account_486,DELETE_RECORD,user_1486,SUCCESS,2026-01-07T18:00:00+00:00,Account record deleted
+act_486_2,search_service,search_doc_486,DELETE_RECORD,user_1486,SUCCESS,2026-01-07T18:00:00+00:00,Search index cleared
+act_487_1,account_service,account_487,DELETE_RECORD,user_1487,SUCCESS,2026-01-08T19:00:00+00:00,Primary account tombstoned
+act_487_2,backup_vault,backup_snapshot_487,RESTORE_PATH,user_1487,ACTIVE,2026-01-13T17:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_488_1,account_service,account_488,DELETE_RECORD,user_1488,SUCCESS,2026-01-09T20:00:00+00:00,Primary account tombstoned
+act_488_2,search_service,search_doc_488,INDEX_RECORD,user_1488,PRESENT,2026-01-14T18:00:00+00:00,Exposed email in search index
+act_489_1,account_service,account_489,DELETE_RECORD,user_1489,SUCCESS,2026-01-10T21:00:00+00:00,Account record deleted
+act_489_2,search_service,search_doc_489,DELETE_RECORD,user_1489,SUCCESS,2026-01-10T21:00:00+00:00,Search index cleared
+act_491_1,account_service,account_491,DELETE_RECORD,user_1491,SUCCESS,2026-01-12T23:00:00+00:00,Primary account tombstoned
+act_491_2,crm_sync_engine,sync_job_491,RECREATE_DATA,user_1491,ACTIVE,2026-01-17T21:00:00+00:00,CRM sync job active and auto-recreating user data
+act_492_1,account_service,account_492,DELETE_RECORD,user_1492,SUCCESS,2026-01-14T00:00:00+00:00,Account record deleted
+act_492_2,search_service,search_doc_492,DELETE_RECORD,user_1492,SUCCESS,2026-01-14T00:00:00+00:00,Search index cleared
+act_493_1,account_service,account_493,DELETE_RECORD,user_1493,SUCCESS,2026-01-15T01:00:00+00:00,Primary account tombstoned
+act_493_2,search_service,search_doc_493,INDEX_RECORD,user_1493,PRESENT,2026-01-19T23:00:00+00:00,Exposed email in search index
+act_494_1,account_service,account_494,DELETE_RECORD,user_1494,SUCCESS,2026-01-16T02:00:00+00:00,Primary account tombstoned
+act_494_2,search_service,search_doc_494,INDEX_RECORD,user_1494,PRESENT,2026-01-21T00:00:00+00:00,Exposed email in search index
+act_495_1,account_service,account_495,DELETE_RECORD,user_1495,SUCCESS,2026-01-17T03:00:00+00:00,Account record deleted
+act_495_2,search_service,search_doc_495,DELETE_RECORD,user_1495,SUCCESS,2026-01-17T03:00:00+00:00,Search index cleared
+act_496_1,account_service,account_496,DELETE_RECORD,user_1496,SUCCESS,2026-01-18T04:00:00+00:00,Primary account tombstoned
+act_496_2,crm_sync_engine,sync_job_496,RECREATE_DATA,user_1496,ACTIVE,2026-01-23T02:00:00+00:00,CRM sync job active and auto-recreating user data
+act_497_1,account_service,account_497,DELETE_RECORD,user_1497,SUCCESS,2026-01-19T05:00:00+00:00,Primary account tombstoned
+act_497_2,backup_vault,backup_snapshot_497,RESTORE_PATH,user_1497,ACTIVE,2026-01-24T03:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_498_1,account_service,account_498,DELETE_RECORD,user_1498,SUCCESS,2026-01-20T06:00:00+00:00,Account record deleted
+act_498_2,search_service,search_doc_498,DELETE_RECORD,user_1498,SUCCESS,2026-01-20T06:00:00+00:00,Search index cleared
+act_499_1,account_service,account_499,DELETE_RECORD,user_1499,SUCCESS,2026-01-21T07:00:00+00:00,Primary account tombstoned
+act_499_2,search_service,search_doc_499,INDEX_RECORD,user_1499,PRESENT,2026-01-26T05:00:00+00:00,Exposed email in search index
+act_501_1,account_service,account_501,DELETE_RECORD,user_1501,SUCCESS,2026-01-23T09:00:00+00:00,Account record deleted
+act_501_2,search_service,search_doc_501,DELETE_RECORD,user_1501,SUCCESS,2026-01-23T09:00:00+00:00,Search index cleared
+act_502_1,account_service,account_502,DELETE_RECORD,user_1502,SUCCESS,2026-01-24T10:00:00+00:00,Primary account tombstoned
+act_502_2,backup_vault,backup_snapshot_502,RESTORE_PATH,user_1502,ACTIVE,2026-01-29T08:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_503_1,account_service,account_503,DELETE_RECORD,user_1503,SUCCESS,2026-01-25T11:00:00+00:00,Primary account tombstoned
+act_503_2,search_service,search_doc_503,INDEX_RECORD,user_1503,PRESENT,2026-01-30T09:00:00+00:00,Exposed email in search index
+act_504_1,account_service,account_504,DELETE_RECORD,user_1504,SUCCESS,2026-01-25T12:00:00+00:00,Account record deleted
+act_504_2,search_service,search_doc_504,DELETE_RECORD,user_1504,SUCCESS,2026-01-25T12:00:00+00:00,Search index cleared
+act_505_1,account_service,account_505,DELETE_RECORD,user_1505,SUCCESS,2026-01-26T13:00:00+00:00,Primary account tombstoned
+act_505_2,search_service,search_doc_505,INDEX_RECORD,user_1505,PRESENT,2026-01-31T11:00:00+00:00,Exposed email in search index
+act_506_1,account_service,account_506,DELETE_RECORD,user_1506,SUCCESS,2026-01-27T14:00:00+00:00,Primary account tombstoned
+act_506_2,crm_sync_engine,sync_job_506,RECREATE_DATA,user_1506,ACTIVE,2026-02-01T12:00:00+00:00,CRM sync job active and auto-recreating user data
+act_507_1,account_service,account_507,DELETE_RECORD,user_1507,SUCCESS,2026-01-28T15:00:00+00:00,Account record deleted
+act_507_2,search_service,search_doc_507,DELETE_RECORD,user_1507,SUCCESS,2026-01-28T15:00:00+00:00,Search index cleared
+act_508_1,account_service,account_508,DELETE_RECORD,user_1508,SUCCESS,2026-01-29T16:00:00+00:00,Primary account tombstoned
+act_508_2,search_service,search_doc_508,INDEX_RECORD,user_1508,PRESENT,2026-02-03T14:00:00+00:00,Exposed email in search index
+act_509_1,account_service,account_509,DELETE_RECORD,user_1509,SUCCESS,2026-01-30T17:00:00+00:00,Primary account tombstoned
+act_509_2,search_service,search_doc_509,INDEX_RECORD,user_1509,PRESENT,2026-02-04T15:00:00+00:00,Exposed email in search index
+act_511_1,account_service,account_511,DELETE_RECORD,user_1511,SUCCESS,2026-01-02T19:00:00+00:00,Primary account tombstoned
+act_511_2,crm_sync_engine,sync_job_511,RECREATE_DATA,user_1511,ACTIVE,2026-01-07T17:00:00+00:00,CRM sync job active and auto-recreating user data
+act_512_1,account_service,account_512,DELETE_RECORD,user_1512,SUCCESS,2026-01-03T20:00:00+00:00,Primary account tombstoned
+act_512_2,backup_vault,backup_snapshot_512,RESTORE_PATH,user_1512,ACTIVE,2026-01-08T18:00:00+00:00,Unblocked backup snapshot contains unredacted user data
+act_513_1,account_service,account_513,DELETE_RECORD,user_1513,SUCCESS,2026-01-04T21:00:00+00:00,Account record deleted
+act_513_2,search_service,search_doc_513,DELETE_RECORD,user_1513,SUCCESS,2026-01-04T21:00:00+00:00,Search index cleared
+act_514_1,account_service,account_514,DELETE_RECORD,user_1514,SUCCESS,2026-01-05T22:00:00+00:00,Primary account tombstoned
+act_514_2,search_service,search_doc_514,INDEX_RECORD,user_1514,PRESENT,2026-01-10T20:00:00+00:00,Exposed email in search index
+act_515_1,account_service,account_515,DELETE_RECORD,user_1515,SUCCESS,2026-01-06T23:00:00+00:00,Primary account tombstoned
+act_515_2,search_service,search_doc_515,INDEX_RECORD,user_1515,PRESENT,2026-01-11T21:00:00+00:00,Exposed email in search index
+act_516_1,account_service,account_516,DELETE_RECORD,user_1516,SUCCESS,2026-01-08T00:00:00+00:00,Account record deleted
+act_516_2,search_service,search_doc_516,DELETE_RECORD,user_1516,SUCCESS,2026-01-08T00:00:00+00:00,Search index cleared
+act_517_1,account_service,account_517,DELETE_RECORD,user_1517,SUCCESS,2026-01-09T01:00:00+00:00,Primary account tombstoned
+act_517_2,backup_vault,backup_snapshot_517,RESTORE_PATH,user_1517,ACTIVE,2026-01-13T23:00:00+00:00,Unblocked backup snapshot contains unredacted user data
